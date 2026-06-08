@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_Until_Lease_End__c</fullName>
+    <description>Calculates the Number of Days Until the Lease Ends Based on the End Date field</description>
+    <externalId>false</externalId>
+    <formula>if(NOT(ISBLANK(End_Date__c)), End_Date__c-Today(), -1)</formula>
+    <inlineHelpText>Calculates the Number of Days Until the Lease Ends Based on the End Date field if End Date is not null. If the End Date is null, this will return -1</inlineHelpText>
+    <label>Days Until Lease End</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

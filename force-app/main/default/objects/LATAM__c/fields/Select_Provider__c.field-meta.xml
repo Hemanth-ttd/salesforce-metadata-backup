@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Select_Provider__c</fullName>
+    <label>Select Provider</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Juan Carlos Escalona Vigil</fullName>
+                <default>false</default>
+                <label>Juan Carlos Escalona Vigil</label>
+            </value>
+            <value>
+                <fullName>Pmj Solutions S.A. De C.V.</fullName>
+                <default>false</default>
+                <label>Pmj Solutions S.A. De C.V.</label>
+            </value>
+            <value>
+                <fullName>Elara Comunicaciones S.A.De C.V.</fullName>
+                <default>false</default>
+                <label>Elara Comunicaciones S.A.De C.V.</label>
+            </value>
+            <value>
+                <fullName>Edificaciones Cubica S.A. De C.V.</fullName>
+                <default>false</default>
+                <label>Edificaciones Cubica S.A. De C.V.</label>
+            </value>
+            <value>
+                <fullName>Signal Soluciones S.A. De C.V.</fullName>
+                <default>false</default>
+                <label>Signal Soluciones S.A. De C.V.</label>
+            </value>
+            <value>
+                <fullName>Gerardo Hiram Reyes Vizuet</fullName>
+                <default>false</default>
+                <label>Gerardo Hiram Reyes Vizuet</label>
+            </value>
+            <value>
+                <fullName>Arab Constructura S.A. De C.V.</fullName>
+                <default>false</default>
+                <label>Arab Constructura S.A. De C.V.</label>
+            </value>
+            <value>
+                <fullName>Electrimex S.A. De C.V.</fullName>
+                <default>false</default>
+                <label>Electrimex S.A. De C.V.</label>
+            </value>
+            <value>
+                <fullName>Ziva Construcciones Y Diseño S.A. De C.V.</fullName>
+                <default>false</default>
+                <label>Ziva Construcciones Y Diseño S.A. De C.V.</label>
+            </value>
+            <value>
+                <fullName>Sac+2d Socios S.A. De C.V.</fullName>
+                <default>false</default>
+                <label>Sac+2d Socios S.A. De C.V.</label>
+            </value>
+            <value>
+                <fullName>Teling Construction &amp; Technology</fullName>
+                <default>false</default>
+                <label>Teling Construction &amp; Technology</label>
+            </value>
+            <value>
+                <fullName>Gesscor Zero</fullName>
+                <default>false</default>
+                <label>Gesscor Zero</label>
+            </value>
+            <value>
+                <fullName>Cgs Ingenieria-Arquitectura</fullName>
+                <default>false</default>
+                <label>Cgs Ingenieria-Arquitectura</label>
+            </value>
+            <value>
+                <fullName>Promanagement  | A2b</fullName>
+                <default>false</default>
+                <label>Promanagement  | A2b</label>
+            </value>
+            <value>
+                <fullName>Electromecanica Integral Y Sistemas De Ventilacion, Calefaccion Y Aire Acondicionado</fullName>
+                <default>false</default>
+                <label>Electromecanica Integral Y Sistemas De Ventilacion, Calefaccion Y Aire Acondicionado</label>
+            </value>
+            <value>
+                <fullName>Grupo Igastsa</fullName>
+                <default>false</default>
+                <label>Grupo Igastsa</label>
+            </value>
+            <value>
+                <fullName>Bioo Construcciones S.A. De C.V</fullName>
+                <default>false</default>
+                <label>Bioo Construcciones S.A. De C.V</label>
+            </value>
+            <value>
+                <fullName>Oscar Ramirez Rivas</fullName>
+                <default>false</default>
+                <label>Oscar Ramirez Rivas</label>
+            </value>
+            <value>
+                <fullName>Torres Y Servicios Tecnicos S.A. De C.V.</fullName>
+                <default>false</default>
+                <label>Torres Y Servicios Tecnicos S.A. De C.V.</label>
+            </value>
+            <value>
+                <fullName>Md Redes Soluciones Integrales</fullName>
+                <default>false</default>
+                <label>Md Redes Soluciones Integrales</label>
+            </value>
+            <value>
+                <fullName>Roberto Carlos Garcia</fullName>
+                <default>false</default>
+                <label>Roberto Carlos Garcia</label>
+            </value>
+            <value>
+                <fullName>CIRCULO EMUR S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>CIRCULO EMUR S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>RESA ATRACCIÓN EMPRESARIAL S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>RESA ATRACCIÓN EMPRESARIAL S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>PROYECTOS JIMSA S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>PROYECTOS JIMSA S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>EDIFICACIONES CÚBICA S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>EDIFICACIONES CÚBICA S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>HERIBERTO ALFARO COLLAZO</fullName>
+                <default>false</default>
+                <label>HERIBERTO ALFARO COLLAZO</label>
+            </value>
+            <value>
+                <fullName>CONRIVTEL S.A DE C.V.</fullName>
+                <default>false</default>
+                <label>CONRIVTEL S.A DE C.V.</label>
+            </value>
+            <value>
+                <fullName>ANA GUADALUPE VIGIL ROMERO / ESHER CONSTRUCCIONES</fullName>
+                <default>false</default>
+                <label>ANA GUADALUPE VIGIL ROMERO / ESHER CONSTRUCCIONES</label>
+            </value>
+            <value>
+                <fullName>MARISOL RAMIREZ FLORES / DYR COMUNICACIONES</fullName>
+                <default>false</default>
+                <label>MARISOL RAMIREZ FLORES / DYR COMUNICACIONES</label>
+            </value>
+            <value>
+                <fullName>INTRACSA S. DE R.L. DE C.V.</fullName>
+                <default>false</default>
+                <label>INTRACSA S. DE R.L. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>SISETEL S.A DE C.V.</fullName>
+                <default>false</default>
+                <label>SISETEL S.A DE C.V.</label>
+            </value>
+            <value>
+                <fullName>ROBERTO CARLOS GARCÍA SÁNCHEZ</fullName>
+                <default>false</default>
+                <label>ROBERTO CARLOS GARCÍA SÁNCHEZ</label>
+            </value>
+            <value>
+                <fullName>JORGE MORALES REYES</fullName>
+                <default>false</default>
+                <label>JORGE MORALES REYES</label>
+            </value>
+            <value>
+                <fullName>GRUPO I.P.E. INSTALACIONES,  S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>GRUPO I.P.E. INSTALACIONES,  S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>RAÚL SALVADOR GÓMEZ LAVÍN / SITIOS &amp; CONSULTORÍA</fullName>
+                <default>false</default>
+                <label>RAÚL SALVADOR GÓMEZ LAVÍN / SITIOS &amp; CONSULTORÍA</label>
+            </value>
+            <value>
+                <fullName>SIGNAL SOLUCIONES, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>SIGNAL SOLUCIONES, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>GESSCORP ZERO, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>GESSCORP ZERO, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>TALLER ARQUITEC 2.0, S. DE R.L. DE C.V.</fullName>
+                <default>false</default>
+                <label>TALLER ARQUITEC 2.0, S. DE R.L. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>ARAB CONSTRUCTORA S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>ARAB CONSTRUCTORA S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>JUAN CARLOS ESCALONA VIGIL_ESHER</fullName>
+                <default>false</default>
+                <label>JUAN CARLOS ESCALONA VIGIL_ESHER</label>
+            </value>
+            <value>
+                <fullName>ZIVA CONSTRUCCIÓN Y DISEÑO S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>ZIVA CONSTRUCCIÓN Y DISEÑO S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>CIA ELECTRIMEX S.A. DE C.V</fullName>
+                <default>false</default>
+                <label>CIA ELECTRIMEX S.A. DE C.V</label>
+            </value>
+            <value>
+                <fullName>FORZA TELECOM S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>FORZA TELECOM S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>LEXTELECOM S. DE R.L. DE C.V.</fullName>
+                <default>false</default>
+                <label>LEXTELECOM S. DE R.L. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>ALEJANDRA MARTÍNEZ MÉNDEZ</fullName>
+                <default>false</default>
+                <label>ALEJANDRA MARTÍNEZ MÉNDEZ</label>
+            </value>
+            <value>
+                <fullName>INGUTZA CONSTRUCCIÓN ESTUDIOS Y PROYECTOS S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>INGUTZA CONSTRUCCIÓN ESTUDIOS Y PROYECTOS S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>ROSALVA VELASQUEZ ZARATE</fullName>
+                <default>false</default>
+                <label>ROSALVA VELASQUEZ ZARATE</label>
+            </value>
+            <value>
+                <fullName>OSCAR RAMÍREZ RIVAS</fullName>
+                <default>false</default>
+                <label>OSCAR RAMÍREZ RIVAS</label>
+            </value>
+            <value>
+                <fullName>PMJ. SOLUTIONS S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>PMJ. SOLUTIONS S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>INTEGRA NETWORK S DE R.L. DE C.V .</fullName>
+                <default>false</default>
+                <label>INTEGRA NETWORK S DE R.L. DE C.V .</label>
+            </value>
+            <value>
+                <fullName>COMFICA, S. DE R.L. DE C.V.</fullName>
+                <default>false</default>
+                <label>COMFICA, S. DE R.L. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>METAL COMUNICACIONES S.A DE C.V.</fullName>
+                <default>false</default>
+                <label>METAL COMUNICACIONES S.A DE C.V.</label>
+            </value>
+            <value>
+                <fullName>DRIVSER RENT A CAR S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>DRIVSER RENT A CAR S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>TORRES Y SERVICIOS TÉCNICOS, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>TORRES Y SERVICIOS TÉCNICOS, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>CONSORCIO AMESA S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>CONSORCIO AMESA S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>MER GROUP INTEGRATED TELECOM SOLUTIONS S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>MER GROUP INTEGRATED TELECOM SOLUTIONS S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>IVAN PANIAGUA CASTRO</fullName>
+                <default>false</default>
+                <label>IVAN PANIAGUA CASTRO</label>
+            </value>
+            <value>
+                <fullName>SAC +2D SOCIOS S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>SAC +2D SOCIOS S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCTORA ABOS, S DE R.L DE C.V.</fullName>
+                <default>false</default>
+                <label>CONSTRUCTORA ABOS, S DE R.L DE C.V.</label>
+            </value>
+            <value>
+                <fullName>L2M CONSTRUCCIÓN, INGENIERÍA Y TELECOMUNICACIONES, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>L2M CONSTRUCCIÓN, INGENIERÍA Y TELECOMUNICACIONES, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>SITE4TECH, S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>SITE4TECH, S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>STEELCOM SERVICIOS DE IMPLEMENTACIÓN EN CONSTRUCCIONES Y TELECOMUNICACIONES S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>STEELCOM SERVICIOS DE IMPLEMENTACIÓN EN CONSTRUCCIONES Y TELECOMUNICACIONES S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>A2B, S.C.</fullName>
+                <default>false</default>
+                <label>A2B, S.C.</label>
+            </value>
+            <value>
+                <fullName>SAC TOWERS S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>SAC TOWERS S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>GONZALEZ QUINTO &amp; ASOCIADOS S.C.</fullName>
+                <default>false</default>
+                <label>GONZALEZ QUINTO &amp; ASOCIADOS S.C.</label>
+            </value>
+            <value>
+                <fullName>R&amp;R NEGOCIOS ALTERNOS S.A DE C.V.</fullName>
+                <default>false</default>
+                <label>R&amp;R NEGOCIOS ALTERNOS S.A DE C.V.</label>
+            </value>
+            <value>
+                <fullName>CLEMENTE DAVID VALDES RANGEL</fullName>
+                <default>false</default>
+                <label>CLEMENTE DAVID VALDES RANGEL</label>
+            </value>
+            <value>
+                <fullName>LUIS ANGEL SOTO MAGALLANES</fullName>
+                <default>false</default>
+                <label>LUIS ANGEL SOTO MAGALLANES</label>
+            </value>
+            <value>
+                <fullName>3T CONSTRUCCIONES, S.A DE C.V.</fullName>
+                <default>false</default>
+                <label>3T CONSTRUCCIONES, S.A DE C.V.</label>
+            </value>
+            <value>
+                <fullName>BIOO CONSTRUCCIONES, S.A. DE C.V</fullName>
+                <default>false</default>
+                <label>BIOO CONSTRUCCIONES, S.A. DE C.V</label>
+            </value>
+            <value>
+                <fullName>HECTOR FERNANDEZ DE CORDOVA/GRUPO IGASTSA</fullName>
+                <default>false</default>
+                <label>HECTOR FERNANDEZ DE CORDOVA/GRUPO IGASTSA</label>
+            </value>
+            <value>
+                <fullName>MIRSHA IVAN VELAZQUEZ DAVILA/MDREDES</fullName>
+                <default>false</default>
+                <label>MIRSHA IVAN VELAZQUEZ DAVILA/MDREDES</label>
+            </value>
+            <value>
+                <fullName>ELARA COMUNICACIONES S.A. DE C.V.</fullName>
+                <default>false</default>
+                <label>ELARA COMUNICACIONES S.A. DE C.V.</label>
+            </value>
+            <value>
+                <fullName>COMERCIALIZADORA Y DISTRIBUIDORA CHASA S.A .DE C.V.</fullName>
+                <default>false</default>
+                <label>COMERCIALIZADORA Y DISTRIBUIDORA CHASA S.A .DE C.V.</label>
+            </value>
+            <value>
+                <fullName>ELIZARRARAS INGENIERÍA S.C.</fullName>
+                <default>false</default>
+                <label>ELIZARRARAS INGENIERÍA S.C.</label>
+            </value>
+            <value>
+                <fullName>JURIDICO IZQUIERDO Y ASOCIADOS S.C.</fullName>
+                <default>false</default>
+                <label>JURIDICO IZQUIERDO Y ASOCIADOS S.C.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

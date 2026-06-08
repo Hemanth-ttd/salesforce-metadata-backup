@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Anchor_Agreement__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Anchor Agreement</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>Anchor Agreement&apos;s Project should match with current Agreement&apos;s Project</errorMessage>
+        <filterItems>
+            <field>Agreement__c.Agreement_Type__c</field>
+            <operation>equals</operation>
+            <value>Anchor</value>
+        </filterItems>
+        <filterItems>
+            <field>Agreement__c.Project__c</field>
+            <operation>equals</operation>
+            <valueField>$Source.Project__c</valueField>
+        </filterItems>
+        <filterItems>
+            <field>Agreement__c.Project__c</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Agreement__c</referenceTo>
+    <relationshipLabel>SDP Agreements</relationshipLabel>
+    <relationshipName>SDP_Anchor_Agreements</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

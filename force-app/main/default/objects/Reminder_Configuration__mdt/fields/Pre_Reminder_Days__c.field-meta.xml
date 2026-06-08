@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pre_Reminder_Days__c</fullName>
+    <description>Comma-separated list of day offsets before the due date to send reminders. e.g. &quot;7,3,1&quot; sends reminders 7 days before, 3 days before, and 1 day before.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Pre Reminder Days</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

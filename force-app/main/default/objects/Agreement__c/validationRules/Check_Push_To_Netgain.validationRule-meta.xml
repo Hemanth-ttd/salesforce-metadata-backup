@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Push_To_Netgain</fullName>
+    <active>true</active>
+    <description>To Make changes push to netgain</description>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),  /* Applies only when updating an existing record */
+
+    ISPICKVAL(PRIORVALUE(Status__c), &quot;Fully Executed&quot;),   /* Record was previously Fully Executed*/
+
+    OR(  /* Block update if any of the below fields are changed*/
+        ISCHANGED(Rent_Commencement_Date__c),
+        ISCHANGED(Initial_Term_Months__c),
+        ISCHANGED(Rent_Escalation_Percent_Amount__c),
+        ISCHANGED(Rent_Escalation_Flat_Fee_Amount__c),
+        ISCHANGED(First_Uplift_Date__c),
+        ISCHANGED(Rent_Deferred__c),
+        ISCHANGED(Rent_Deferred_Start_Date__c),
+        ISCHANGED(Rent_Deferred_End_Date__c),
+        ISCHANGED(Rent_Abated__c),
+        ISCHANGED(Uplift_Frequency_Multiplier__c),
+        ISCHANGED(Initial_Rent__c),
+        ISCHANGED(Final_Term_Expiration_Date__c),
+        ISCHANGED(Renewal_Term_Months__c),
+        ISCHANGED(Number_of_Renewals__c)
+    ),
+
+    NOT(Push_To_NetGain__c),   /* Only enforce rule if Push_To_NetGain__c is NOT checked*/
+
+    $Permission.Netgain_Permisison_Set,   /* Applies only to users who have the permission set*/
+  NOT(ISPICKVAL(Agreement_Type__c ,&apos;SDP&apos;)),
+  NOT(ISPICKVAL(Related_Agreement_Reason__c,&apos;Revised SDP Amendment&apos;)),
+  NOT(ISPICKVAL(Related_Agreement_Reason__c,&apos;Reconciliation Amendment&apos;))
+
+)</errorConditionFormula>
+    <errorMessage>Please check Push To Netgain Checkbox to make changes to fields when an agreeement is fully executed status. Only RE Admin Team can make changes to agreements in fully executed status.</errorMessage>
+</ValidationRule>

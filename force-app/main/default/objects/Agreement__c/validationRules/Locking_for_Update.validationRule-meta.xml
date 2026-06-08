@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locking_for_Update</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+ OR(ISCHANGED( Revenue_Share_Flat_Fee__c ) ,
+ ISCHANGED( Revenue_Share_Percentage__c ) ),
+ NOT(Revenue_Share_Included__c),
+ NOT($Profile.Name == &apos;System Administrator&apos;),
+RecordType.DeveloperName =&apos;Agreement&apos;
+
+)</errorConditionFormula>
+    <errorMessage>Please Enable Revenue Share Included before updating Revenue Share Flat Fee or Revenue Share Percentage.</errorMessage>
+</ValidationRule>

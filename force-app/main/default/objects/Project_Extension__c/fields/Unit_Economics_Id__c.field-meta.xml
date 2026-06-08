@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Economics_Id__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Unit Economics Id</label>
+    <referenceTo>Unit_Economics__c</referenceTo>
+    <relationshipLabel>Project Extension</relationshipLabel>
+    <relationshipName>PE_UnitEconomics</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

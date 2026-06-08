@@ -1,0 +1,71 @@
+<template>
+	<div class="slds-scrollable_x">
+	<div class="slds-section slds-is-open slds-scrollable_x" data-id="sectionId">
+		<!--section header-->
+		<h3 class="slds-section__title"  style="width: auto;">
+			<button type="button" aria-controls="sectionId" class="slds-button slds-section__title-action" data-name="toggleButton" data-id="sectionId"
+                onclick={handleButtonClick}>
+                <lightning-icon icon-name="utility:switch" alternative-text="button icon" size="x-small"
+                    class="slds-section__title-action-icon slds-button__icon_left"></lightning-icon>
+                <span class="slds-truncate" title={sectionHeading}>{sectionHeading}</span>
+            </button>
+		</h3>
+		<!--section body-->
+
+		<div class="slds-section__content" style="width: fit-content;">
+			<div class="slds-grid slds-grid_vertical slds-has-flexi-truncate">
+				<div class="slds-col">
+					<div class="slds-grid slds-gutters slds-p-bottom_medium ">
+						<div class="slds-col slds-text-align_center" style="width:10rem;  !important">Name</div>
+						<template for:each={fieldsList} for:item="fieldItem">
+							<div class="slds-col slds-text-align_center" key={fieldItem.fieldName}
+								style="width:10rem; !important">
+								{fieldItem.fieldLabel}
+							</div>
+						</template>
+					</div>
+				</div>
+				<template for:each={childRecordsList} for:item="listVariable">
+					<div key={listVariable.Id} class="slds-col">
+						<lightning-record-edit-form key={listVariable.Id} object-api-name={secondaryParentObjectdName}
+							record-id={listVariable.ColocationAgreement__c} onsuccess={handleSuccess} onerror={handleError} >
+							<lightning-messages> </lightning-messages>
+							<div class="slds-grid slds-gutters slds-p-bottom_medium">
+								<div class="slds-col slds-text-align_center" style="width:10rem;  !important">
+									<a data-name="navigateRecord" data-id={listVariable.ColocationAgreement__c}
+										onclick={handleButtonClick}>
+										<lightning-output-field field-name="Name" variant="label-hidden"
+											disabled="true">
+										</lightning-output-field>
+									</a>
+								</div>
+								<template for:each={fieldsList} for:item="fieldItem">
+									<div class="slds-col slds-text-align_center" style="width:10rem;  !important"
+										key={fieldItem.fieldName}>
+										<lightning-input-field data-name={fieldItem.fieldName}  data-id={fieldItem.fieldName} field-name={fieldItem.fieldName} variant="label-hidden"
+											disabled={isDisableEdit}>
+										</lightning-input-field>
+									</div>
+								</template>
+							</div>
+						</lightning-record-edit-form>
+					</div>
+				</template>
+				<div class="slds-col slds-text-align_center">
+					<template if:true={isDisableEdit}>
+						<lightning-button label="Edit" name="edit" title="Edit" data-name="edit"
+							onclick={handleButtonClick} class="slds-m-left_x-small"></lightning-button>
+					</template>
+
+					<template if:false={isDisableEdit}>
+						<lightning-button label="Cancel" title="Cancel" data-name="cancel" name="cancel"
+							onclick={handleButtonClick} class="slds-m-left_x-small"></lightning-button>
+						<lightning-button variant="brand" label="Save" title="Save" name="save" data-name="save"
+							onclick={handleButtonClick} class="slds-m-left_x-small"></lightning-button>
+					</template>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+</template>

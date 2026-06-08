@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_Key__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Required field on insert.</description>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <inlineHelpText>Required field on insert.</inlineHelpText>
+    <label>Is Key</label>
+    <type>Checkbox</type>
+</CustomField>

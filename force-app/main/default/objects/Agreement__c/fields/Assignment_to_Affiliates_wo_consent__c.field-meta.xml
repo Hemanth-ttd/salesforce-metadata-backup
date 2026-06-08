@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assignment_to_Affiliates_wo_consent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Assignment to Affiliates without consent (y/n)</inlineHelpText>
+    <label>Assignment to Affiliates w/o consent</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

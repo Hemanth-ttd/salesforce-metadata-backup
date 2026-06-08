@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Project</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>$Source.Site__c</field>
+            <operation>equals</operation>
+            <valueField>strk__Project__c.strk__Site__r.Id</valueField>
+        </filterItems>
+        <filterItems>
+            <field>strk__Project__c.strk__Project_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Cancelled, On Hold</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>strk__Project__c</referenceTo>
+    <relationshipLabel>RelatedAgreementProjects</relationshipLabel>
+    <relationshipName>RelatedAgreementProjects</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

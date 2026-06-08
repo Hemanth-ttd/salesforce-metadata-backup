@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Title_Status__c</fullName>
+    <label>Title Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>As Built Survey In Process</fullName>
+                <default>false</default>
+                <label>As Built Survey In Process</label>
+            </value>
+            <value>
+                <fullName>Need MOL/MOA</fullName>
+                <default>false</default>
+                <label>Title Policy Waiting on MOL/MOA</label>
+            </value>
+            <value>
+                <fullName>Policy in Process</fullName>
+                <default>false</default>
+                <label>Title Policy in Process</label>
+            </value>
+            <value>
+                <fullName>Policy Received</fullName>
+                <default>false</default>
+                <label>Title Policy Received</label>
+            </value>
+            <value>
+                <fullName>Recently built</fullName>
+                <default>false</default>
+                <label>Recently built</label>
+            </value>
+            <value>
+                <fullName>Railroad site; title company will not insure</fullName>
+                <default>false</default>
+                <label>Uninsurable (Property Type)</label>
+            </value>
+            <value>
+                <fullName>Landlord not willing</fullName>
+                <default>false</default>
+                <label>Not Able to Obtain Title (Landowner)</label>
+            </value>
+            <value>
+                <fullName>GLBO In Process</fullName>
+                <default>false</default>
+                <label>GLBO In Process</label>
+            </value>
+            <value>
+                <fullName>TestA</fullName>
+                <default>false</default>
+                <label>TestA</label>
+            </value>
+            <value>
+                <fullName>TestB</fullName>
+                <default>false</default>
+                <label>TestB</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Current_UE_Uploaded__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ( INCLUDES ( Project__r.Project_Extension__r.Uploaded_UE_Milestones__c , &quot;Project Acceptance UE&quot; ), &quot;Project Acceptance UE; &quot;,null ) &amp;
+IF ( INCLUDES ( Project__r.Project_Extension__r.Uploaded_UE_Milestones__c, &quot;SCIP UE&quot; ), &quot;SCIP UE; &quot;,null ) &amp;
+IF ( INCLUDES ( Project__r.Project_Extension__r.Uploaded_UE_Milestones__c, &quot;Ground Lease UE&quot; ), &quot;Ground Lease UE; &quot;,null ) &amp;
+IF ( INCLUDES ( Project__r.Project_Extension__r.Uploaded_UE_Milestones__c, &quot;Pre-Cx UE&quot; ), &quot;Pre-Cx UE; &quot;,null ) &amp;
+IF ( INCLUDES ( Project__r.Project_Extension__r.Uploaded_UE_Milestones__c, &quot;Final UE&quot; ), &quot;Final UE; &quot;,null )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Project Current UE Uploaded</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lease_Type__c</fullName>
+    <label>Lease Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Anchor</fullName>
+                <default>false</default>
+                <label>Anchor</label>
+            </value>
+            <value>
+                <fullName>Anchor PassThrough</fullName>
+                <default>false</default>
+                <label>Anchor PassThrough</label>
+            </value>
+            <value>
+                <fullName>Anchor Tenant</fullName>
+                <default>false</default>
+                <label>Anchor Tenant</label>
+            </value>
+            <value>
+                <fullName>Colocation</fullName>
+                <default>false</default>
+                <label>Colocation</label>
+            </value>
+            <value>
+                <fullName>Easement (access/utility)</fullName>
+                <default>false</default>
+                <label>Easement (access/utility)</label>
+            </value>
+            <value>
+                <fullName>GLBO</fullName>
+                <default>false</default>
+                <label>GLBO</label>
+            </value>
+            <value>
+                <fullName>Ground</fullName>
+                <default>false</default>
+                <label>Ground</label>
+            </value>
+            <value>
+                <fullName>Owned</fullName>
+                <default>false</default>
+                <label>Owned</label>
+            </value>
+            <value>
+                <fullName>SDP</fullName>
+                <default>false</default>
+                <label>SDP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

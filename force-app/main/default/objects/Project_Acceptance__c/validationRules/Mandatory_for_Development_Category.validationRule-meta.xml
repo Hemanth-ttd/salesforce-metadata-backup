@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mandatory_for_Development_Category</fullName>
+    <active>true</active>
+    <description>Mandatory information for development record</description>
+    <errorConditionFormula>AND (
+    NOT($Profile.Name == &apos;System Administrator&apos;),
+    !ISNEW(), 
+    ISPICKVAL(Category__c,&apos;Development&apos;),
+    OR (
+        ISBLANK(SBO_accept_reject_F__c) , 
+        LEN(SD_Narrative__c)=0
+    )
+)</errorConditionFormula>
+    <errorMessage>SD Narrative and Site Build Opportunity Accept/Reject (F) information is being mandatory for Category Development</errorMessage>
+</ValidationRule>

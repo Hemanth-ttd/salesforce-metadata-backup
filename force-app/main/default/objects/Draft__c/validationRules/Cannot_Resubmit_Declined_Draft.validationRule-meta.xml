@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Resubmit_Declined_Draft</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),
+    ISPICKVAL(PRIORVALUE(Draft_Status__c), &apos;Declined&apos;),
+    NOT(ISPICKVAL(Draft_Status__c, &apos;Declined&apos;))
+)</errorConditionFormula>
+    <errorMessage>Please create new draft as this draft has been Declined</errorMessage>
+</ValidationRule>

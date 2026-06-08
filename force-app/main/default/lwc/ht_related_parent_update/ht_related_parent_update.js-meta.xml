@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+	<apiVersion>57.0</apiVersion>
+	<isExposed>true</isExposed>
+	<masterLabel>HT_RelatedParentUpdate</masterLabel>
+	<targets>
+		<target>lightning__RecordPage</target>
+		<target>lightning__AppPage</target>
+	</targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="recordId" type="String" label="Record Id" />
+            <property name="childObjectName" type="String" label="Child Object Name" />
+            <property name="childFieldSetName" type="String" label="Child Field Set Name" />
+            <property name="relationFieldName" type="String" label="Relation Field Name" />
+            <property name="secondaryParentFeildName" type="String" label="Secondary Parent Field Name" />
+            <property name="secondaryParentObjectdName" type="String" label="Secondary Parent Object Name"/>
+            <property name="secondaryParentFieldSetName" type="String" label="Secondary Parent Field Set Name" />
+            <property name="sectionHeading" type="String" label="Section Heading" />
+
+            
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

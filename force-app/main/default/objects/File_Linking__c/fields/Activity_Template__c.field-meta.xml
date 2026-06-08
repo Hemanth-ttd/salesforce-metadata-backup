@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Template__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Activity Template</label>
+    <referenceTo>strk__Activity_Template__c</referenceTo>
+    <relationshipLabel>File Linkings</relationshipLabel>
+    <relationshipName>File_Linkings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

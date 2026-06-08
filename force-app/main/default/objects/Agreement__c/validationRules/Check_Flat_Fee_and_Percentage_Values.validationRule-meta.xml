@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Flat_Fee_and_Percentage_Values</fullName>
+    <active>true</active>
+    <description>Only one can be entered for revenue share section</description>
+    <errorConditionFormula>OR(  
+AND (NOT(ISBLANK(Revenue_Share_Flat_Fee__c)), Revenue_Share_Flat_Fee__c &gt; 0, 
+ RecordType.DeveloperName =&apos;Agreement&apos;
+,NOT(ISBLANK(Revenue_Share_Percentage__c)),
+Revenue_Share_Percentage__c&gt;0),
+
+AND (NOT(ISBLANK(Revenue_Share_Flat_Fee__c)), Revenue_Share_Flat_Fee__c = 0, 
+RecordType.DeveloperName =&apos;Agreement&apos;
+,
+NOT(ISBLANK(Revenue_Share_Percentage__c)),
+Revenue_Share_Percentage__c=0)
+
+
+)</errorConditionFormula>
+    <errorMessage>Please make sure only  one of these fields - Revenue Share flat fee or Revenue Share Percentage can have value entered greater than 0.</errorMessage>
+</ValidationRule>

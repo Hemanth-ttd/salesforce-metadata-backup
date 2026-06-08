@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeaseNet_Reason__c</fullName>
+    <label>LeaseNet Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Rent</fullName>
+                <default>false</default>
+                <label>Rent</label>
+            </value>
+            <value>
+                <fullName>Tower Rent</fullName>
+                <default>false</default>
+                <label>Tower Rent</label>
+            </value>
+            <value>
+                <fullName>Ground Rent Pass Through</fullName>
+                <default>false</default>
+                <label>Ground Rent Pass Through</label>
+            </value>
+            <value>
+                <fullName>Collocation Revenue</fullName>
+                <default>false</default>
+                <label>Collocation Revenue</label>
+            </value>
+            <value>
+                <fullName>Microwave Rent</fullName>
+                <default>false</default>
+                <label>Microwave Rent</label>
+            </value>
+            <value>
+                <fullName>Option Payment</fullName>
+                <default>false</default>
+                <label>Option Payment</label>
+            </value>
+            <value>
+                <fullName>Deferred Rent Remainder-Ground</fullName>
+                <default>false</default>
+                <label>Deferred Rent Remainder-Ground</label>
+            </value>
+            <value>
+                <fullName>Deferred Rent Remainder-Tower</fullName>
+                <default>false</default>
+                <label>Deferred Rent Remainder-Tower</label>
+            </value>
+            <value>
+                <fullName>Sublease Rev Share</fullName>
+                <default>false</default>
+                <label>Sublease Rev Share</label>
+            </value>
+            <value>
+                <fullName>Sales Tax</fullName>
+                <default>false</default>
+                <label>Sales Tax</label>
+            </value>
+            <value>
+                <fullName>Office Rent</fullName>
+                <default>false</default>
+                <label>Office Rent</label>
+            </value>
+            <value>
+                <fullName>Amendment Rent-Collocation</fullName>
+                <default>false</default>
+                <label>Amendment Rent-Collocation</label>
+            </value>
+            <value>
+                <fullName>Collocation Pass-Through</fullName>
+                <default>false</default>
+                <label>Collocation Pass-Through</label>
+            </value>
+            <value>
+                <fullName>Tax Payment</fullName>
+                <default>false</default>
+                <label>Tax Payment</label>
+            </value>
+            <value>
+                <fullName>Installment Payment</fullName>
+                <default>false</default>
+                <label>Installment Payment</label>
+            </value>
+            <value>
+                <fullName>Rent Reduction</fullName>
+                <default>false</default>
+                <label>Rent Reduction</label>
+            </value>
+            <value>
+                <fullName>Marketing Fee</fullName>
+                <default>false</default>
+                <label>Marketing Fee</label>
+            </value>
+            <value>
+                <fullName>Amendment Rent-Tower</fullName>
+                <default>false</default>
+                <label>Amendment Rent-Tower</label>
+            </value>
+            <value>
+                <fullName>Audit</fullName>
+                <default>false</default>
+                <label>Audit</label>
+            </value>
+            <value>
+                <fullName>AAFES</fullName>
+                <default>false</default>
+                <label>AAFES</label>
+            </value>
+            <value>
+                <fullName>Initial Facility User Fee</fullName>
+                <default>false</default>
+                <label>Initial Facility User Fee</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+            <value>
+                <fullName>Rent Revenue</fullName>
+                <default>false</default>
+                <label>Rent Revenue</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>true</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

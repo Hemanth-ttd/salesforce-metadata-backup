@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Locked_For_Update_After_Approved</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT($Profile.Name = &apos;System Administrator&apos;),
+    NOT(ISNEW()),
+    OR(
+        ISPICKVAL(PRIORVALUE(Approval_Status__c), &apos;Approved&apos;),
+ ISPICKVAL(PRIORVALUE(Approval_Status__c), &apos;Auto Approved&apos;),
+
+ ISPICKVAL(PRIORVALUE(Approval_Status__c), &apos;Bulk Approved&apos;),
+
+        ISPICKVAL(PRIORVALUE(Approval_Status__c), &apos;Rejected&apos;)
+    ),
+  
+    OR(
+        ISCHANGED(Total_Capex__c),
+        ISCHANGED(X8_Year_IRR__c),
+       
+	
+        ISCHANGED(Anchor_TCF_yr__c),
+  ISCHANGED(Pipeline_Colo_Amount__c),
+        ISCHANGED(Ground_Rent__c)
+
+
+           )
+)</errorConditionFormula>
+    <errorMessage>Please contact System Administrator to make to changes to UE as the UE is already Approved/Rejected.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3_Types_of_Renewals__c</fullName>
+    <label>(3)Types of Renewals</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Automatic</fullName>
+                <default>false</default>
+                <label>Automatic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

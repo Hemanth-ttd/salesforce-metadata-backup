@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_One_Checkbox_Checked</fullName>
+    <active>true</active>
+    <description>only push to netgain or do not push to netgain</description>
+    <errorConditionFormula>Push_To_NetGain__c  &amp;&amp;  Do_Not_Push_To_Netgain__c</errorConditionFormula>
+    <errorMessage>Only one of the checkboxes — &quot;Push to Netgain&quot; or &quot;Do Not Push to Netgain&quot; — can be selected.Please select only one.</errorMessage>
+</ValidationRule>

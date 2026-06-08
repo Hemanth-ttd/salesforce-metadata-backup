@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Revenue_Share__c</fullName>
+    <formula>IF(AND(NOT(ISBLANK(Revenue_Share_Flat_Fee__c)), Revenue_Share_Flat_Fee__c &gt; 0), Revenue_Share_Flat_Fee__c, IF(AND(NOT(ISBLANK(Revenue_Share_Percentage__c)), Revenue_Share_Percentage__c &gt; 0), Revenue_Share_Percentage__c *  All_In_Total__c , 0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Revenue Share</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

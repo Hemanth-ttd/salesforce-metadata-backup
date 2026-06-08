@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SDP_Due_Date__c</fullName>
+    <formula>IF(   ISPICKVAL(Project__r.strk__Project_Type__c, &apos;Relo (RELO)&apos;) ||  ISPICKVAL(Project__r.strk__Project_Type__c, &apos;Relo Permit Ready (RELO-P)&apos;)  , Project__r.Receive_RF_Preferred_Candidate_A__c +10,  IF( ISPICKVAL(Project__r.strk__Project_Type__c, &apos;Build to Suit (BTS)&apos;) ||  ISPICKVAL(Project__r.strk__Project_Type__c, &apos;Build to Suit - Permit Ready (BTS-P)&apos;) ,  Project__r.Project_Extension__r.Site_Acquisition_Complete_RE020_A__c+42 , null))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>SDP Due Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

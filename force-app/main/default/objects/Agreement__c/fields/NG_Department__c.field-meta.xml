@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NG_Department__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(Project__r.strk__Customer__c, &apos;AT&amp;T&apos;), &apos;AT&amp;T&apos;,
+    IF(ISPICKVAL(Project__r.strk__Customer__c, &apos;Verizon Wireless&apos;), &apos;Verizon&apos;,
+        IF(ISPICKVAL(Project__r.strk__Customer__c, &apos;Dish Networks&apos;), &apos;Dish Wireless&apos;,
+            IF(ISPICKVAL(Project__r.strk__Customer__c, &apos;Sprint&apos;), &apos;Sprint/T-Mobile&apos;,
+ IF(ISPICKVAL(Project__r.strk__Customer__c, &apos;T-Mobile&apos;), &apos;Sprint/T-Mobile&apos;,
+                &apos;Other&apos;
+            )
+        )
+    )
+)
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>NG Department**</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

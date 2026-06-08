@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enter_Required_Fields</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    Not(IsNew()),
+ISCHANGED(Push_To_NetGain__c),
+ Push_To_NetGain__c = TRUE,
+    OR(
+        ISBLANK(Project__c), 
+        ISPICKVAL(LegalEntity__c, &quot;&quot;)
+    ),
+OR( TopCarrier__c ,
+ISBLANK( Tenant_Site_ID__c )
+)
+)</errorConditionFormula>
+    <errorMessage>Please enter Project, Tenant Site ID In associated Project and Legal Entity for the Agreement.</errorMessage>
+</ValidationRule>

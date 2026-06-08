@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Assignment_Flag__c</fullName>
+    <description>For approval process reviewer matrix evaluation</description>
+    <externalId>false</externalId>
+    <formula>IF( AND( (TEXT(Project_Type__c) == &apos;BTS&apos; || TEXT(Project_Type__c) == &apos;DDBTS&apos;),Rev_Share__c, TEXT(Approval_Status__c)== &apos;Draft&apos;), &apos;AP6&apos;,
+IF( AND( (TEXT(Project_Type__c) == &apos;BTS-P&apos; ||  TEXT(Project_Type__c) == &apos;DDBTS&apos;),Rev_Share__c,TEXT(Approval_Status__c)== &apos;Draft&apos;), &apos;AP7&apos;,
+
+IF( (TEXT(Project_Type__c) == &apos;BTS&apos; || TEXT(Project_Type__c) == &apos;DDBTS&apos;) &amp;&amp; Rev_Share__c == false &amp;&amp; TEXT(Approval_Status__c)== &apos;Draft&apos;,
+IF((Total_Capex__c -  Easement_Acquisition__c )&lt;= 575000 &amp;&amp; X8_Year_IRR__c &gt;= 0.10,&apos;AP2&apos;, IF((Total_Capex__c -  Easement_Acquisition__c ) &gt; 575000 || X8_Year_IRR__c &lt; 0.10, &apos;AP3&apos;, &apos;NA&apos;))
+,
+IF( (TEXT(Project_Type__c) == &apos;BTS-P&apos;  || TEXT(Project_Type__c) == &apos;DDBTS&apos;) &amp;&amp; Rev_Share__c == false &amp;&amp; TEXT(Approval_Status__c)== &apos;Draft&apos;,
+IF((Total_Capex__c -  Easement_Acquisition__c ) &lt;= 575000 &amp;&amp; X8_Year_IRR__c &gt;= 0.10, &apos;AP4&apos;, IF((Total_Capex__c -  Easement_Acquisition__c ) &gt; 575000 || X8_Year_IRR__c &lt; 0.10, &apos;AP5&apos;,
+&apos;NA&apos;))
+,
+&apos;NA&apos;
+)
+)))</formula>
+    <label>Approval Assignment Flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

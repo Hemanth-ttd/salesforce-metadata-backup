@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Easement_Agreement_Purchase_Deed_Entity__c</fullName>
+    <label>Easement Agreement/Purchase Deed Entity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Harmoni Towers AssetCo, LLC</fullName>
+                <default>false</default>
+                <label>Harmoni Towers AssetCo, LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers AssetCo II, LLC</fullName>
+                <default>false</default>
+                <label>Harmoni Towers AssetCo II, LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers LLC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Harmoni Towers LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers  LLC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Harmoni Towers  LLC</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Parallel Towers III, LLC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Parallel Towers III, LLC</label>
+            </value>
+            <value>
+                <fullName>PI Telecom Infrastructure, LLC</fullName>
+                <default>false</default>
+                <label>PI Telecom Infrastructure, LLC</label>
+            </value>
+            <value>
+                <fullName>PI Tower Development LLC</fullName>
+                <default>false</default>
+                <label>PI Tower Development LLC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

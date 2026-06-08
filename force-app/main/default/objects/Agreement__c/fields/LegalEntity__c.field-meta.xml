@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LegalEntity__c</fullName>
+    <label>Legal Entity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PARALLEL TOWERS III LLC</fullName>
+                <default>false</default>
+                <label>PARALLEL TOWERS III LLC</label>
+            </value>
+            <value>
+                <fullName>PI Telecom Infrastructure LLC</fullName>
+                <default>false</default>
+                <label>PI Telecom Infrastructure LLC</label>
+            </value>
+            <value>
+                <fullName>PI Tower LLC</fullName>
+                <default>false</default>
+                <label>PI Tower LLC</label>
+            </value>
+            <value>
+                <fullName>PI Tower Development LLC</fullName>
+                <default>false</default>
+                <label>PI Tower Development LLC</label>
+            </value>
+            <value>
+                <fullName>PARALLEL INFRASTRUCTURE HOLDINGS LLC</fullName>
+                <default>false</default>
+                <label>PARALLEL INFRASTRUCTURE HOLDINGS LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers AssetCo II LLC</fullName>
+                <default>false</default>
+                <label>Harmoni Towers AssetCo II LLC</label>
+            </value>
+            <value>
+                <fullName>Alpha Towers PropCo III LLC</fullName>
+                <default>false</default>
+                <label>Alpha Towers PropCo III LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers AssetCo LLC</fullName>
+                <default>false</default>
+                <label>Harmoni Towers AssetCo LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers Asset Co LLC</fullName>
+                <default>false</default>
+                <label>Harmoni Towers Asset Co LLC</label>
+            </value>
+            <value>
+                <fullName>PI MTA LLC</fullName>
+                <default>false</default>
+                <label>PI MTA LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers Development Company LLC</fullName>
+                <default>false</default>
+                <label>Harmoni Towers Development Company LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers Infrastructure LLC</fullName>
+                <default>false</default>
+                <label>Harmoni Towers Infrastructure LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers Gateway LLC</fullName>
+                <default>false</default>
+                <label>Harmoni Towers Gateway LLC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

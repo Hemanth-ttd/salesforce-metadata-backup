@@ -1,0 +1,20 @@
+<template>
+	<template if:true={displayBanner}>
+		<div class="slds-card slds-theme_shade">
+			<div class="slds-card__header slds-grid">
+				<div class="slds-notify slds-notify_alert slds-alert_info" role="alert">
+					<span class="slds-assistive-text">Info</span>
+					<span class="slds-icon_container slds-icon-utility-info slds-m-right_x-small"
+        title="Description of icon when needed">
+        <svg class="slds-icon slds-icon_x-small" aria-hidden="true">
+          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#info"></use>
+        </svg>
+      </span>
+					<h2>
+						<lightning-formatted-rich-text value={message}></lightning-formatted-rich-text>
+					</h2>
+				</div>
+			</div>
+		</div>
+	</template>
+</template>

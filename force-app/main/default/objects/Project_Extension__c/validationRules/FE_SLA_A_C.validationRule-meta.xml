@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FE_SLA_A_C</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(FE_SLA_A__c)  &amp;&amp; (($Profile.Name &lt;&gt; &apos;System Administrator&apos;)&amp;&amp; NOT( $Permission.Real_Estate_And_Contract_Team ))</errorConditionFormula>
+    <errorMessage>Fully Executed SLA (A)  cannot be changed once updated. Please contact Real Estate or Contracts Team.</errorMessage>
+</ValidationRule>

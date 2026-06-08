@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modified_Last_24_Hours__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF ((FLOOR ((NOW() - ($System.OriginDateTime)) * 24) / 24) -
+(CreatedDate - ($System.OriginDateTime)) &lt; 1, &quot;TRUE&quot;, &quot;FALSE&quot; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Modified Last 24 Hours</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

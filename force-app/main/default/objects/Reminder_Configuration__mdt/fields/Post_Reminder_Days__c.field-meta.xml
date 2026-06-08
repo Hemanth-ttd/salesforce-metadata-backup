@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Post_Reminder_Days__c</fullName>
+    <description>Comma-separated list of day offsets after the due date to send reminders. e.g. &quot;1,3,7&quot; sends reminders 1 day after, 3 days after, and 7 days after.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Post Reminder Days</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

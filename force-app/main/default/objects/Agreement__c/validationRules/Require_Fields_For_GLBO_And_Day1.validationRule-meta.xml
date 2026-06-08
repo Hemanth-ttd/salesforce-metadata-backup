@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Fields_For_GLBO_And_Day1</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+   OR(
+      ISPICKVAL(Ground_Interest__c, &quot;Day 1 Easement&quot;),
+      ISPICKVAL(Ground_Interest__c, &quot;GLBO Related Agreement&quot;)
+   ),
+
+   OR(
+      ISBLANK(Purchase_Fee__c),
+      ISBLANK(TEXT(Origination__c)),
+      ISBLANK(TEXT(Business_unit__c)),
+      ISBLANK(Ground_Rent_at_Purchase__c)
+   )
+)</errorConditionFormula>
+    <errorMessage>Purchase Fee, Origination, Business Unit,
+and Monthly Ground at Purchase are required.</errorMessage>
+</ValidationRule>

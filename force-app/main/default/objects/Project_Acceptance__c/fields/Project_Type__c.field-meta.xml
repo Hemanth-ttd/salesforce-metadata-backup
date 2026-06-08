@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project_Type__c</fullName>
+    <label>Project Type</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>BTS</fullName>
+                <default>false</default>
+                <label>BTS</label>
+            </value>
+            <value>
+                <fullName>BTS-P</fullName>
+                <default>false</default>
+                <label>BTS-P</label>
+            </value>
+            <value>
+                <fullName>Combo (CMB)</fullName>
+                <default>false</default>
+                <label>Combo (CMB)</label>
+            </value>
+            <value>
+                <fullName>Corrective Maintenance (CM)</fullName>
+                <default>false</default>
+                <label>Corrective Maintenance (CM)</label>
+            </value>
+            <value>
+                <fullName>Data Center (DC)</fullName>
+                <default>false</default>
+                <label>Data Center (DC)</label>
+            </value>
+            <value>
+                <fullName>DDBTS</fullName>
+                <default>false</default>
+                <label>DDBTS</label>
+            </value>
+            <value>
+                <fullName>DDBTS-P</fullName>
+                <default>false</default>
+                <label>DDBTS-P</label>
+            </value>
+            <value>
+                <fullName>Drop &amp; Swap</fullName>
+                <default>false</default>
+                <label>Drop &amp; Swap</label>
+            </value>
+            <value>
+                <fullName>Existing (EXT)</fullName>
+                <default>false</default>
+                <label>Existing (EXT)</label>
+            </value>
+            <value>
+                <fullName>Fiber (FR)</fullName>
+                <default>false</default>
+                <label>Fiber (FR)</label>
+            </value>
+            <value>
+                <fullName>Ground Only (GO)</fullName>
+                <default>false</default>
+                <label>Ground Only (GO)</label>
+            </value>
+            <value>
+                <fullName>Harmoni Initiated</fullName>
+                <default>false</default>
+                <label>Harmoni Initiated</label>
+            </value>
+            <value>
+                <fullName>Improvement (IMP)</fullName>
+                <default>false</default>
+                <label>Improvement (IMP)</label>
+            </value>
+            <value>
+                <fullName>MKT</fullName>
+                <default>false</default>
+                <label>MKT</label>
+            </value>
+            <value>
+                <fullName>New (NEW)</fullName>
+                <default>true</default>
+                <label>New (NEW)</label>
+            </value>
+            <value>
+                <fullName>Other (OTH)</fullName>
+                <default>false</default>
+                <label>Other (OTH)</label>
+            </value>
+            <value>
+                <fullName>Preventative Maintenance (PM)</fullName>
+                <default>false</default>
+                <label>Preventative Maintenance (PM)</label>
+            </value>
+            <value>
+                <fullName>ROFR</fullName>
+                <default>false</default>
+                <label>ROFR</label>
+            </value>
+            <value>
+                <fullName>Structure &amp; Ground (SaG)</fullName>
+                <default>false</default>
+                <label>Structure &amp; Ground (SaG)</label>
+            </value>
+            <value>
+                <fullName>Termination (TER)</fullName>
+                <default>false</default>
+                <label>Termination (TER)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Collocation</controllingFieldValue>
+            <valueName>Existing (EXT)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collocation</controllingFieldValue>
+            <valueName>New (NEW)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collocation</controllingFieldValue>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Other (OTH)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Collocation</controllingFieldValue>
+            <valueName>Termination (TER)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>BTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>BTS-P</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>DDBTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>DDBTS-P</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Development</controllingFieldValue>
+            <valueName>MKT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lease Buyout</controllingFieldValue>
+            <valueName>Harmoni Initiated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lease Buyout</controllingFieldValue>
+            <valueName>ROFR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Corrective Maintenance (CM)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Improvement (IMP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operations</controllingFieldValue>
+            <valueName>Preventative Maintenance (PM)</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

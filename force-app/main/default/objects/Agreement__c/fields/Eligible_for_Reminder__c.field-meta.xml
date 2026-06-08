@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Eligible_for_Reminder__c</fullName>
+    <formula>AND(
+				NOT(ISBLANK(DD_Option_Current_Expiration_Date__c)), 
+    NOT(ISPICKVAL(Status__c, &apos;Terminated&apos;)), 
+				NOT(ISNULL(Contract_Fully_Executed__c)),
+				ISNULL(Rent_Commencement_Date__c),  
+		  ISPICKVAL(Agreement_Type__c, &apos;Ground&apos;),		
+				OR(
+				    DD_Option_Current_Expiration_Date__c - TODAY() = 1,
+								DD_Option_Current_Expiration_Date__c - TODAY() = 2,
+								DD_Option_Current_Expiration_Date__c - TODAY() = 3,
+								DD_Option_Current_Expiration_Date__c - TODAY() = 4,
+								DD_Option_Current_Expiration_Date__c - TODAY() = 5,
+								DD_Option_Current_Expiration_Date__c - TODAY() = 6,
+								DD_Option_Current_Expiration_Date__c - TODAY() = 7,
+								DD_Option_Current_Expiration_Date__c - TODAY() = 30,
+								DD_Option_Current_Expiration_Date__c - TODAY() = 60,
+								DD_Option_Current_Expiration_Date__c - TODAY() = 90
+								
+				)
+)</formula>
+    <label>Eligible for Reminder?</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

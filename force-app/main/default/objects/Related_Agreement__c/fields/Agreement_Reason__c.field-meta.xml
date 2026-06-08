@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement_Reason__c</fullName>
+    <label>Agreement Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Related_Agreement_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equipment Change</fullName>
+                <default>false</default>
+                <label>Equipment Change</label>
+            </value>
+            <value>
+                <fullName>Microwave</fullName>
+                <default>false</default>
+                <label>Microwave</label>
+            </value>
+            <value>
+                <fullName>Option/ Due Diligence Extension</fullName>
+                <default>false</default>
+                <label>Option/Due Diligence Extension</label>
+            </value>
+            <value>
+                <fullName>SDP Recon Amendment</fullName>
+                <default>false</default>
+                <label>SDP Recon Amendment</label>
+            </value>
+            <value>
+                <fullName>SDP Revision Amendment</fullName>
+                <default>false</default>
+                <label>SDP Revision Amendment</label>
+            </value>
+            <value>
+                <fullName>Zero Dollar</fullName>
+                <default>false</default>
+                <label>Zero Dollar</label>
+            </value>
+            <value>
+                <fullName>Collocation Pass-Through</fullName>
+                <default>false</default>
+                <label>Collocation Pass-Through</label>
+            </value>
+            <value>
+                <fullName>Ground Rent Pass-Through</fullName>
+                <default>false</default>
+                <label>Ground Rent Pass-Through</label>
+            </value>
+            <value>
+                <fullName>Initial Facility User Fee</fullName>
+                <default>false</default>
+                <label>Initial Facility User Fee</label>
+            </value>
+            <value>
+                <fullName>Installment Payment</fullName>
+                <default>false</default>
+                <label>Installment Payment</label>
+            </value>
+            <value>
+                <fullName>Marketing Fee</fullName>
+                <default>false</default>
+                <label>Marketing Fee</label>
+            </value>
+            <value>
+                <fullName>Non-Amendment Microwave Rent</fullName>
+                <default>false</default>
+                <label>Non-Amendment Microwave Rent</label>
+            </value>
+            <value>
+                <fullName>Office Rent</fullName>
+                <default>false</default>
+                <label>Office Rent</label>
+            </value>
+            <value>
+                <fullName>Sales Tax</fullName>
+                <default>false</default>
+                <label>Sales Tax</label>
+            </value>
+            <value>
+                <fullName>Sublease Rev Share</fullName>
+                <default>false</default>
+                <label>Sublease Rev Share</label>
+            </value>
+            <value>
+                <fullName>Utilities/Maintenance Fee</fullName>
+                <default>false</default>
+                <label>Utilities/Maintenance Fee</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Option/ Due Diligence Payment</fullName>
+                <default>false</default>
+                <label>Option/Due Diligence Payment</label>
+            </value>
+            <value>
+                <fullName>Rent Reduction</fullName>
+                <default>false</default>
+                <label>Rent Reduction</label>
+            </value>
+            <value>
+                <fullName>Signing Bonus</fullName>
+                <default>false</default>
+                <label>Signing Bonus</label>
+            </value>
+            <value>
+                <fullName>Soft Costs</fullName>
+                <default>false</default>
+                <label>Soft Costs</label>
+            </value>
+            <value>
+                <fullName>Capital Contributions</fullName>
+                <default>false</default>
+                <label>Capital Contributions</label>
+            </value>
+            <value>
+                <fullName>One Time Fee</fullName>
+                <default>false</default>
+                <label>One Time Fee</label>
+            </value>
+            <value>
+                <fullName>Easement</fullName>
+                <default>false</default>
+                <label>Easement</label>
+            </value>
+            <value>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+                <label>Amendment</label>
+            </value>
+            <value>
+                <fullName>Purchase</fullName>
+                <default>false</default>
+                <label>Purchase</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>ABM Bill of Sale and Lien Release</fullName>
+                <default>false</default>
+                <label>ABM Bill of Sale and Lien Release</label>
+            </value>
+            <value>
+                <fullName>Consent/PAL Letter</fullName>
+                <default>false</default>
+                <label>Consent/PAL Letter</label>
+            </value>
+            <value>
+                <fullName>Lease Premises</fullName>
+                <default>false</default>
+                <label>Lease Premises</label>
+            </value>
+            <value>
+                <fullName>Reinstatement</fullName>
+                <default>false</default>
+                <label>Reinstatement</label>
+            </value>
+            <value>
+                <fullName>Option/ Due Diligence</fullName>
+                <default>false</default>
+                <label>Option/ Due Diligence</label>
+            </value>
+            <value>
+                <fullName>Other Consent/PAL Letter</fullName>
+                <default>false</default>
+                <label>Other Consent/PAL Letter</label>
+            </value>
+            <value>
+                <fullName>Other ABM Bill of Sale and Lien Release</fullName>
+                <default>false</default>
+                <label>Other ABM Bill of Sale and Lien Release</label>
+            </value>
+            <value>
+                <fullName>Ground Lease Buyout</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ground Lease Buyout</label>
+            </value>
+            <value>
+                <fullName>SDP to Actual</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SDP to Actual</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Collocation Pass-Through</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <valueName>Marketing Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Non-Amendment Microwave Rent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Signing Bonus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>One Time Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consent/PAL Letter</controllingFieldValue>
+            <valueName>Consent/PAL Letter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consent/PAL Letter</controllingFieldValue>
+            <valueName>Other Consent/PAL Letter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access/Utility Easement</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ABM Bill Of Sale and Lien Release</controllingFieldValue>
+            <valueName>ABM Bill of Sale and Lien Release</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ABM Bill Of Sale and Lien Release</controllingFieldValue>
+            <valueName>Other ABM Bill of Sale and Lien Release</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SDP Revision/Version</controllingFieldValue>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <valueName>SDP Recon Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SDP Revision/Version</controllingFieldValue>
+            <valueName>SDP Revision Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Lease Buyout</controllingFieldValue>
+            <valueName>Easement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Lease Buyout</controllingFieldValue>
+            <valueName>Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Lease Buyout</controllingFieldValue>
+            <valueName>Purchase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Amendment</controllingFieldValue>
+            <valueName>Option/ Due Diligence Extension</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Amendment</controllingFieldValue>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <controllingFieldValue>Colocation Amendment</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <controllingFieldValue>Colocation Amendment</controllingFieldValue>
+            <valueName>Equipment Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <controllingFieldValue>Colocation Amendment</controllingFieldValue>
+            <valueName>Microwave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <controllingFieldValue>Colocation Amendment</controllingFieldValue>
+            <valueName>Zero Dollar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Initial Facility User Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Installment Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Sales Tax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Sublease Rev Share</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Utilities/Maintenance Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Option/ Due Diligence Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Ground Rent Pass-Through</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Office Rent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Rent Reduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Soft Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Capital Contributions</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

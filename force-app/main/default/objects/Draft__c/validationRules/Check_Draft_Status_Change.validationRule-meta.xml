@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Draft_Status_Change</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISCHANGED(Draft_Status__c)) &amp;&amp;
+(((NOT($Profile.Name = &apos;System Administrator&apos;)) &amp;&amp; Not($Permission.RE_Contracts_Review_Team) &amp;&amp; NOT(AgreementType__c=&apos;SDP&apos;)) || AgreementType__c=&apos;SDP&apos; &amp;&amp; Not($Permission.PC_Team))&amp;&amp;
+((ISPICKVAL(Draft_Status__c, &apos;Accepted&apos;)) ||
+(ISPICKVAL(Draft_Status__c, &apos;Declined&apos;)) ||
+(ISPICKVAL(Draft_Status__c, &apos;Completed&apos;)))</errorConditionFormula>
+    <errorMessage>Only Draft Review Team or System Administration can change status to Accepted,Declined or Completed. Please reach out to them.</errorMessage>
+</ValidationRule>

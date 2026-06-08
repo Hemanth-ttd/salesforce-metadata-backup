@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Type__c</fullName>
+    <label>Activity Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Caminos</fullName>
+                <default>false</default>
+                <label>Caminos</label>
+            </value>
+            <value>
+                <fullName>Candados o Chapas</fullName>
+                <default>false</default>
+                <label>Candados o Chapas</label>
+            </value>
+            <value>
+                <fullName>Cimientos y Estructuras</fullName>
+                <default>false</default>
+                <label>Cimientos y Estructuras</label>
+            </value>
+            <value>
+                <fullName>Estructura</fullName>
+                <default>false</default>
+                <label>Estructura</label>
+            </value>
+            <value>
+                <fullName>Impermeabilizacion</fullName>
+                <default>false</default>
+                <label>Impermeabilizacion</label>
+            </value>
+            <value>
+                <fullName>Limpieza General y/o Deshierbe</fullName>
+                <default>false</default>
+                <label>Limpieza General y/o Deshierbe</label>
+            </value>
+            <value>
+                <fullName>Malla Ciclónica Perimetral o Bardas</fullName>
+                <default>false</default>
+                <label>Malla Ciclónica Perimetral o Bardas</label>
+            </value>
+            <value>
+                <fullName>Mantenimiento Primer Vuelta</fullName>
+                <default>false</default>
+                <label>Mantenimiento Primer Vuelta</label>
+            </value>
+            <value>
+                <fullName>Mantenimiento Segunda Vuelta</fullName>
+                <default>false</default>
+                <label>Mantenimiento Segunda Vuelta</label>
+            </value>
+            <value>
+                <fullName>Porton</fullName>
+                <default>false</default>
+                <label>Porton</label>
+            </value>
+            <value>
+                <fullName>Red Line</fullName>
+                <default>false</default>
+                <label>Red Line</label>
+            </value>
+            <value>
+                <fullName>Reparacion de Luces</fullName>
+                <default>false</default>
+                <label>Reparacion de Luces</label>
+            </value>
+            <value>
+                <fullName>Sistema de Tierra</fullName>
+                <default>false</default>
+                <label>Sistema de Tierra</label>
+            </value>
+            <value>
+                <fullName>Site Survey</fullName>
+                <default>false</default>
+                <label>Site Survey</label>
+            </value>
+            <value>
+                <fullName>Sitio General</fullName>
+                <default>false</default>
+                <label>Sitio General</label>
+            </value>
+            <value>
+                <fullName>Torres y Estructuras Metálicas</fullName>
+                <default>false</default>
+                <label>Torres y Estructuras Metálicas</label>
+            </value>
+            <value>
+                <fullName>Vandalismo</fullName>
+                <default>false</default>
+                <label>Vandalismo</label>
+            </value>
+            <value>
+                <fullName>Gestoria</fullName>
+                <default>false</default>
+                <label>Gestoria</label>
+            </value>
+            <value>
+                <fullName>Tramites</fullName>
+                <default>false</default>
+                <label>Tramites</label>
+            </value>
+            <value>
+                <fullName>Reparaciones de Energia</fullName>
+                <default>false</default>
+                <label>Reparaciones de Energia</label>
+            </value>
+            <value>
+                <fullName>Seguros</fullName>
+                <default>false</default>
+                <label>Seguros</label>
+            </value>
+            <value>
+                <fullName>Consumo de Energia</fullName>
+                <default>false</default>
+                <label>Consumo de Energia</label>
+            </value>
+            <value>
+                <fullName>Instalaciones</fullName>
+                <default>false</default>
+                <label>Instalaciones</label>
+            </value>
+            <value>
+                <fullName>Mantenimiento Preventivo</fullName>
+                <default>false</default>
+                <label>Mantenimiento Preventivo</label>
+            </value>
+            <value>
+                <fullName>Mantenimiento Correctivo</fullName>
+                <default>false</default>
+                <label>Mantenimiento Correctivo</label>
+            </value>
+            <value>
+                <fullName>Emergencia</fullName>
+                <default>false</default>
+                <label>Emergencia</label>
+            </value>
+            <value>
+                <fullName>Construccion Obra Civil</fullName>
+                <default>false</default>
+                <label>Construccion Obra Civil</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

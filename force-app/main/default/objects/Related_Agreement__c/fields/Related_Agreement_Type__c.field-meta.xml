@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Agreement_Type__c</fullName>
+    <label>Related Agreement Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Lease_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Access/Utility Easement</fullName>
+                <default>false</default>
+                <label>Access/Utility Easement</label>
+            </value>
+            <value>
+                <fullName>Ground Lease Buyout</fullName>
+                <default>false</default>
+                <label>Ground Lease Buyout</label>
+            </value>
+            <value>
+                <fullName>Anchor Amendment</fullName>
+                <default>false</default>
+                <label>Anchor Amendment</label>
+            </value>
+            <value>
+                <fullName>Colocation Amendment</fullName>
+                <default>false</default>
+                <label>Colocation Amendment</label>
+            </value>
+            <value>
+                <fullName>Ground Amendment</fullName>
+                <default>false</default>
+                <label>Ground Amendment</label>
+            </value>
+            <value>
+                <fullName>Anchor Payment Reason</fullName>
+                <default>false</default>
+                <label>Anchor Payment Reason</label>
+            </value>
+            <value>
+                <fullName>Colocation Payment Reason</fullName>
+                <default>false</default>
+                <label>Colocation Payment Reason</label>
+            </value>
+            <value>
+                <fullName>Ground Payment Reason</fullName>
+                <default>false</default>
+                <label>Ground Payment Reason</label>
+            </value>
+            <value>
+                <fullName>SDP Revision/Version</fullName>
+                <default>false</default>
+                <label>SDP Revision/Version</label>
+            </value>
+            <value>
+                <fullName>Consent/PAL Letter</fullName>
+                <default>false</default>
+                <label>Consent/PAL Letter</label>
+            </value>
+            <value>
+                <fullName>ABM Bill Of Sale and Lien Release</fullName>
+                <default>false</default>
+                <label>ABM Bill Of Sale and Lien Release</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Colocation</controllingFieldValue>
+            <valueName>Colocation Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation</controllingFieldValue>
+            <valueName>Colocation Payment Reason</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation</controllingFieldValue>
+            <controllingFieldValue>Anchor</controllingFieldValue>
+            <valueName>Consent/PAL Letter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation</controllingFieldValue>
+            <controllingFieldValue>Anchor</controllingFieldValue>
+            <valueName>ABM Bill Of Sale and Lien Release</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground</controllingFieldValue>
+            <valueName>Access/Utility Easement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground</controllingFieldValue>
+            <valueName>Ground Lease Buyout</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground</controllingFieldValue>
+            <valueName>Ground Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground</controllingFieldValue>
+            <valueName>Ground Payment Reason</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor</controllingFieldValue>
+            <valueName>Anchor Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor</controllingFieldValue>
+            <valueName>Anchor Payment Reason</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SDP</controllingFieldValue>
+            <valueName>SDP Revision/Version</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement</fullName>
+    <active>true</active>
+    <label>Agreement</label>
+    <picklistValues>
+        <picklist>Access_and_Utility_w_in_Parcel__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Agreement_Type__c</picklist>
+        <values>
+            <fullName>Anchor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colocation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDP</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Amendment_Entity__c</picklist>
+        <values>
+            <fullName>Harmoni Towers AssetCo%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Tower Development LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parallel Towers III%2C LLC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Business_unit__c</picklist>
+        <values>
+            <fullName>AAFES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSNF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DevCo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Galaxi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmoni Towers 3%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PPCo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Colocation_No__c</picklist>
+        <values>
+            <fullName>00</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>04</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>09</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>51</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>52</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>53</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Company_Name__c</picklist>
+        <values>
+            <fullName>AAFES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Galaxi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmoni Towers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmoni Towers 3%2E0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parallel Infrastructure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Entity__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Currency__c</picklist>
+        <values>
+            <fullName>USA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DD_Option_Rent_Credit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Due_Diligence_Option_Rent_Credit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Due_Diligence_or_Option__c</picklist>
+        <values>
+            <fullName>Due Diligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Option</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Easement_Agreement_Purchase_Deed_Entity__c</picklist>
+        <values>
+            <fullName>Harmoni Towers AssetCo II%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmoni Towers AssetCo%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Telecom Infrastructure%2C LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Tower Development LLC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Easement_Term__c</picklist>
+        <values>
+            <fullName>Fixed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perpetual</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Escalation_Frequency__c</picklist>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GLBO_Agreement_Type__c</picklist>
+        <values>
+            <fullName>Perpetual Easement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Term Easement</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ground_Interest__c</picklist>
+        <values>
+            <fullName>Easement %28Day 1%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lease</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>License</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Guyed_Wires_w_in_Parcel__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Installment_Payents__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_Recon_Amendment_Required__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeaseNet_Reason__c</picklist>
+        <values>
+            <fullName>AAFES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amendment Rent-Collocation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amendment Rent-Tower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Audit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collocation Pass-Through</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collocation Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferred Rent Remainder-Ground</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deferred Rent Remainder-Tower</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Rent Pass Through</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Facility User Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installment Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microwave Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Option Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rent Reduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rent Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sublease Rev Share</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tower Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LegalEntity__c</picklist>
+        <values>
+            <fullName>Alpha Towers PropCo III LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmoni Towers AssetCo II LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmoni Towers AssetCo LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmoni Towers Development Company LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmoni Towers Gateway LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Harmoni Towers Infrastructure LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PARALLEL INFRASTRUCTURE HOLDINGS LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PARALLEL TOWERS III LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI MTA LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Telecom Infrastructure LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Tower Development LLC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Tower LLC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OTF_Reason__c</picklist>
+        <values>
+            <fullName>Installation Contribution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lessee Ready Notice Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origination__c</picklist>
+        <values>
+            <fullName>Harmoni Initiated Buyout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ROFR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Dev</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership_Type__c</picklist>
+        <values>
+            <fullName>Company Leased</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Owned</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Frequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Every 5 Years</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One-Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Reason__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Type__c</picklist>
+        <values>
+            <fullName>Installment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lump Sum</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_Agreement_Reason__c</picklist>
+        <values>
+            <fullName>ABM Bill of Sale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anchor Amendment Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Capital Contributions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Collocation Pass-Through</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colocation Amendment Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Combined Action</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consent Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipment Change</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fee Simple Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Amendment Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Rent Pass-Through</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Initial Facility User Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installment Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lease Premises</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lien Of Release</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microwave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Amendment Microwave Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Rent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One Time Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Option%2F Due Diligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Option%2F Due Diligence Extension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAL Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perpetual Easement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prepaid Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reconciliation Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reinstatement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rent Reduction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revised SDP Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDP Recon Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDP Revision Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Tax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Signing Bonus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soft Costs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sublease Rev Share</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Term Easement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities%2FMaintenance Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zero Dollar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Related_Agreement_Type__c</picklist>
+        <values>
+            <fullName>ABM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Access%2FUtility Easement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anchor Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anchor Payment Reason</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colocation Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colocation Payment Reason</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Amendment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Lease Buyout</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ground Payment Reason</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SDP Revision%2FVersion</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rent_Credit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rent_Escalation_Flat_Fee_Percent_or_CPI__c</picklist>
+        <values>
+            <fullName>CPI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Percent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rent_Escalation_Flat_Fee_or_Percent__c</picklist>
+        <values>
+            <fullName>CPI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat Fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Percent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rent_Escalation_Frequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One-Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>per Term</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rent_Frequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One-Time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Per-Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi-Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rent_increase__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Draft</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fully Executed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internally Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partially Executed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Internal Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Types_of_Renewal__c</picklist>
+        <values>
+            <fullName>Automatic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mutual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>With Notice</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X1_Types_of_Renewals__c</picklist>
+        <values>
+            <fullName>Automatic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2_Types_of_Renewals__c</picklist>
+        <values>
+            <fullName>Automatic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X3_Types_of_Renewals__c</picklist>
+        <values>
+            <fullName>Automatic</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

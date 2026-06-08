@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalation_Type__c</fullName>
+    <label>Escalation Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>By Amount</fullName>
+                <default>false</default>
+                <label>By Amount</label>
+            </value>
+            <value>
+                <fullName>By Percent</fullName>
+                <default>false</default>
+                <label>By Percent</label>
+            </value>
+            <value>
+                <fullName>Estimated CPI - Provided by Tenant</fullName>
+                <default>false</default>
+                <label>Estimated CPI - Provided by Tenant</label>
+            </value>
+            <value>
+                <fullName>Percent</fullName>
+                <default>false</default>
+                <label>Percent</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

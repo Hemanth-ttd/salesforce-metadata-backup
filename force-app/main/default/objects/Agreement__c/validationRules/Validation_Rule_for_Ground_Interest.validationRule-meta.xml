@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Rule_for_Ground_Interest</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+   
+    ISPICKVAL(Agreement_Type__c, &quot;Ground&quot;),  /* Ensures Agreement Type is &quot;Ground&quot; */
+    ISBLANK(TEXT(Ground_Interest__c)),  /* Ensures Ground Interest is not selected */
+ISBLANK(TEXT(Related_Agreement_Type__c))
+)</errorConditionFormula>
+    <errorMessage>Please enter Ground Interest for Ground Lease.</errorMessage>
+</ValidationRule>

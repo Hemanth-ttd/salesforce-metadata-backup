@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Development_Acceptance</fullName>
+    <columns>Site_ID__c</columns>
+    <columns>Site__c</columns>
+    <columns>Category__c</columns>
+    <columns>NAME</columns>
+    <columns>Project__c</columns>
+    <columns>BD_Lead__c</columns>
+    <columns>Project_Management_Director__c</columns>
+    <columns>Approval_Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Category__c</field>
+        <operation>equals</operation>
+        <value>Lease Buyout</value>
+    </filters>
+    <label>Ground Lease Buyout Acceptance</label>
+</ListView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use_Site_Status_Field__c</fullName>
+    <defaultValue>false</defaultValue>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Check this box to use the Site status instead of the Project status field</inlineHelpText>
+    <label>Use Site Status Field?</label>
+    <type>Checkbox</type>
+</CustomField>

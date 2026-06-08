@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Display_Photo__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(!ISBLANK(Photo_Link__c),
+HYPERLINK(Photo_Link__c, IMAGE(Photo_Link__c, First_Name__c, -1, 400), &quot;_blank&quot;),
+&quot;No photo uploaded for this contact.&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Display Photo</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

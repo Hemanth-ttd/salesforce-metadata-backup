@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Uploaded_UE_Milestones__c</fullName>
+    <label>Uploaded UE Milestones</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Project Acceptance UE</fullName>
+                <default>false</default>
+                <label>Project Acceptance UE</label>
+            </value>
+            <value>
+                <fullName>SCIP UE</fullName>
+                <default>false</default>
+                <label>SCIP UE</label>
+            </value>
+            <value>
+                <fullName>Ground Lease UE</fullName>
+                <default>false</default>
+                <label>Ground Lease UE</label>
+            </value>
+            <value>
+                <fullName>Pre-Cx UE</fullName>
+                <default>false</default>
+                <label>Pre-Cx UE</label>
+            </value>
+            <value>
+                <fullName>Final UE</fullName>
+                <default>false</default>
+                <label>Final UE</label>
+            </value>
+            <value>
+                <fullName>In-Cx UE</fullName>
+                <default>false</default>
+                <label>In-Cx UE</label>
+            </value>
+            <value>
+                <fullName>Revised UE</fullName>
+                <default>false</default>
+                <label>Revised UE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

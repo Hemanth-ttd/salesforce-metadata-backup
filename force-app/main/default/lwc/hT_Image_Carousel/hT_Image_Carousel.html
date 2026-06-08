@@ -1,0 +1,36 @@
+<template>
+  <template if:true={hasResults}>
+    <lightning-carousel>
+      <template for:each={images.data} for:item="image">
+        <lightning-carousel-image
+          key={image.id}
+          src={image.thumbnail}
+          header={image.name}
+          description={image.description}
+          alternative-text={image.altText}
+          onclick={imageClicked}
+          data-contentid={image.id}
+        >
+        </lightning-carousel-image>
+      </template>
+    </lightning-carousel>
+  </template>
+
+  <template if:false={hasResults}>
+    <div class="slds-text-heading_small">
+      There are no images associated with this record.
+    </div>
+    <template if:true={showFileUploadOption}>
+      <div class="slds-p-top_x-small">
+        <lightning-file-upload
+          label="Upload Images"
+          name="imageUploader"
+          record-id={recordId}
+          onuploadfinished={onUploadFinish}
+          multiple
+        >
+        </lightning-file-upload>
+      </div>
+    </template>
+  </template>
+</template>

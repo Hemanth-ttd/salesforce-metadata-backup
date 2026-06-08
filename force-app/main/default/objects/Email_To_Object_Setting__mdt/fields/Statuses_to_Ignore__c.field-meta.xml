@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Statuses_to_Ignore__c</fullName>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Semicolon Separated List of statuses that are to be ignored when a project is checked in Email Service
+i.e Complete;Cancelled;Pending</inlineHelpText>
+    <label>Statuses to Ignore</label>
+    <required>true</required>
+    <type>TextArea</type>
+</CustomField>

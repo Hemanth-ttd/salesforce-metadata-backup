@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GLBO_Agreement_Type__c</fullName>
+    <label>GLBO Agreement Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fee Simple Purchase</fullName>
+                <default>false</default>
+                <label>Fee Simple Purchase</label>
+            </value>
+            <value>
+                <fullName>Term Easement</fullName>
+                <default>false</default>
+                <label>Term Easement</label>
+            </value>
+            <value>
+                <fullName>Perpetual Easement</fullName>
+                <default>false</default>
+                <label>Perpetual Easement</label>
+            </value>
+            <value>
+                <fullName>Prepaid Amendment</fullName>
+                <default>false</default>
+                <label>Prepaid Amendment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

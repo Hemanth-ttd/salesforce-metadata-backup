@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Development_Projects</fullName>
+    <columns>Site_ID__c</columns>
+    <columns>Site__c</columns>
+    <columns>NAME</columns>
+    <columns>Project__c</columns>
+    <columns>X8_Year_IRR__c</columns>
+    <columns>Total_Capex__c</columns>
+    <columns>BD_Lead__c</columns>
+    <columns>Project_Management_Director__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>Development Acceptance</label>
+</ListView>

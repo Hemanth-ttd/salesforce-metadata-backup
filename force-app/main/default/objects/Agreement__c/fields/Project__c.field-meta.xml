@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Project__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Project</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 AND ((2 AND 3) OR 4)</booleanFilter>
+        <filterItems>
+            <field>$Source.Site__c</field>
+            <operation>equals</operation>
+            <valueField>strk__Project__c.strk__Site__r.Id</valueField>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Agreement_Type__c</field>
+            <operation>equals</operation>
+            <value>SDP</value>
+        </filterItems>
+        <filterItems>
+            <field>strk__Project__c.strk__Project_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Cancelled, On Hold</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.Agreement_Type__c</field>
+            <operation>notEqual</operation>
+            <value>SDP</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>strk__Project__c</referenceTo>
+    <relationshipLabel>AgreementProjects</relationshipLabel>
+    <relationshipName>AgreementProjects</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

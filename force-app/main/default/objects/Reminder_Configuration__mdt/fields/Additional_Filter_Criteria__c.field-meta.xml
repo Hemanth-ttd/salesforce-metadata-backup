@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Filter_Criteria__c</fullName>
+    <description>Optional SOQL WHERE fragment appended to the dynamic query with AND. Do not include the WHERE keyword. e.g. &quot;Status__c != &apos;Closed&apos;&quot; or &quot;IsClosed = false&quot;</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Additional Filter Criteria</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

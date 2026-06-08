@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bond_Description__c</fullName>
+    <label>Bond Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Encroachment</fullName>
+                <default>false</default>
+                <label>Encroachment</label>
+            </value>
+            <value>
+                <fullName>Right-of-way</fullName>
+                <default>false</default>
+                <label>Right-of-way</label>
+            </value>
+            <value>
+                <fullName>Highway/Highway Permit</fullName>
+                <default>false</default>
+                <label>Highway/Highway Permit</label>
+            </value>
+            <value>
+                <fullName>Nortary Public Commission</fullName>
+                <default>false</default>
+                <label>Nortary Public Commission</label>
+            </value>
+            <value>
+                <fullName>Driveway</fullName>
+                <default>false</default>
+                <label>Driveway</label>
+            </value>
+            <value>
+                <fullName>License/Permit</fullName>
+                <default>false</default>
+                <label>License/Permit</label>
+            </value>
+            <value>
+                <fullName>Landscaping, Grading &amp; Storm</fullName>
+                <default>false</default>
+                <label>Landscaping, Grading &amp; Storm</label>
+            </value>
+            <value>
+                <fullName>Special Use</fullName>
+                <default>false</default>
+                <label>Special Use</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Highway</fullName>
+                <default>false</default>
+                <label>Highway</label>
+            </value>
+            <value>
+                <fullName>Landscaping</fullName>
+                <default>false</default>
+                <label>Landscaping</label>
+            </value>
+            <value>
+                <fullName>Tower Removal</fullName>
+                <default>false</default>
+                <label>Tower Removal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

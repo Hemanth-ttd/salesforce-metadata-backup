@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Agreement__c</fullName>
+    <label>Agreement</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ABM</fullName>
+                <default>false</default>
+                <label>ABM</label>
+            </value>
+            <value>
+                <fullName>Easement &amp; Assignment Agreement</fullName>
+                <default>false</default>
+                <label>Easement &amp; Assignment Agreement</label>
+            </value>
+            <value>
+                <fullName>Flood</fullName>
+                <default>false</default>
+                <label>Flood</label>
+            </value>
+            <value>
+                <fullName>Flood 5.0</fullName>
+                <default>false</default>
+                <label>Flood 5.0</label>
+            </value>
+            <value>
+                <fullName>Purchase Agreement</fullName>
+                <default>false</default>
+                <label>Purchase Agreement</label>
+            </value>
+            <value>
+                <fullName>T-mobile</fullName>
+                <default>false</default>
+                <label>T-mobile</label>
+            </value>
+            <value>
+                <fullName>Verizon</fullName>
+                <default>false</default>
+                <label>Verizon</label>
+            </value>
+            <value>
+                <fullName>Dish Networks</fullName>
+                <default>false</default>
+                <label>Dish Networks</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>true</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>VzW HRR Indexed</fullName>
+                <default>false</default>
+                <label>VzW HRR Indexed 4.25%</label>
+            </value>
+            <value>
+                <fullName>AT&amp;T HRR Indexed</fullName>
+                <default>false</default>
+                <label>AT&amp;T HRR Indexed</label>
+            </value>
+            <value>
+                <fullName>T-Mobile BTSSA</fullName>
+                <default>false</default>
+                <label>T-Mobile BTSSA</label>
+            </value>
+            <value>
+                <fullName>AT&amp;T BTS HRR New Offer Indexed 5%</fullName>
+                <default>false</default>
+                <label>AT&amp;T BTS HRR New Offer Indexed 5%</label>
+            </value>
+            <value>
+                <fullName>T-Mobile HRR Indexed 3.9%</fullName>
+                <default>false</default>
+                <label>T-Mobile HRR Indexed 3.9%</label>
+            </value>
+            <value>
+                <fullName>AT&amp;T BTS DDBTS Indexed 5%</fullName>
+                <default>false</default>
+                <label>AT&amp;T BTS DDBTS Indexed 5%</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

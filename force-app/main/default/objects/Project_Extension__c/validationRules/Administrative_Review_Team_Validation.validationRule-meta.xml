@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Administrative_Review_Team_Validation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(Administrative_Review_A__c), 
+    NOT($Permission.Administrative_Review_Team), 
+	$Profile.Name &lt;&gt; &apos;System Administrator&apos;,
+    OR(
+        Project__r.strk__Project_Template__c != &apos;US Collocation&apos;,
+        AND(
+            Project__r.strk__Project_Template__c = &apos;US Collocation&apos;,
+            OR(
+                Project__r.Monthly_Income__c != 0,
+                AND(
+                    Project__r.Monthly_Income__c = 0,
+                    Administrative_Review_A__c &lt;&gt; DATE(1900, 1, 1)
+                )
+            )
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>Administrative Review Actual Date can be updated only by Administrative review team. Please contact System Administrator.</errorMessage>
+</ValidationRule>

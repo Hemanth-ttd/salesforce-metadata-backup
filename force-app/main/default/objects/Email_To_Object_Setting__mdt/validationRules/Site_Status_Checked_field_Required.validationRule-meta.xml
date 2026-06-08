@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_Status_Checked_field_Required</fullName>
+    <active>true</active>
+    <description>Require the Site object and Site Field if Use Site Status checked</description>
+    <errorConditionFormula>AND( Use_Site_Status_Field__c, OR( ISBLANK(  Site_Object__c ), ISBLANK(  Site_Status_Field__c )))</errorConditionFormula>
+    <errorMessage>You must include both a Site Object and Site Status to save this record while using site status field.</errorMessage>
+</ValidationRule>

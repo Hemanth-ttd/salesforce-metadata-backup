@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Email To Object Setting to help expand on when we want to allow/ignore emails to Projects</description>
+    <label>Email To Object Setting</label>
+    <pluralLabel>Email To Object Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

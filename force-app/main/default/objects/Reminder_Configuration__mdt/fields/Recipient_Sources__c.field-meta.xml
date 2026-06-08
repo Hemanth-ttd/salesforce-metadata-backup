@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recipient_Sources__c</fullName>
+    <description>Comma-separated list of recipient source types to use. Valid values: FIELD, RELATED_FIELD, STATIC. e.g. &quot;FIELD,STATIC&quot; or &quot;FIELD,RELATED_FIELD,STATIC&quot;</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Recipient Sources</label>
+    <length>255</length>
+    <required>true</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

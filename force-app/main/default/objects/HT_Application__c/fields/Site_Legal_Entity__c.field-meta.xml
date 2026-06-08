@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Site_Legal_Entity__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(Project__r.strk__Site__r.HT_Legal_Entity__c,
+&apos;PI Telecom Infrastructure LLC&apos;, &apos;PI Telecom Infrastructure, LLC&apos;,
+&apos;Harmoni Towers AssetCo II LLC&apos;,&apos;Harmoni Towers AssetCo II, LLC&apos;,
+&apos;Harmoni Towers AssetCo LLC&apos;,&apos;Harmoni Towers AssetCo, LLC&apos;,
+&apos;PI Telecom Infrastructure T, LLC&apos;,&apos;PI Telecom Infrastructure T LLC&apos;,
+&apos;PI Telecom Infrastructure V, LLC&apos;,&apos;PI Telecom Infrastructure V LLC&apos;,
+&apos;PI Telecom Infrastructure A, LLC&apos;,&apos;PI Telecom Infrastructure A LLC&apos;,
+TEXT(Project__r.strk__Site__r.HT_Legal_Entity__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Site Legal Entity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

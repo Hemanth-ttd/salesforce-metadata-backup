@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Owner__c</fullName>
+    <label>Contact Owner</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abril Diaz</fullName>
+                <default>false</default>
+                <label>Abril Diaz</label>
+            </value>
+            <value>
+                <fullName>Chas Peterson</fullName>
+                <default>false</default>
+                <label>Chas Peterson</label>
+            </value>
+            <value>
+                <fullName>Daniel Campagna</fullName>
+                <default>false</default>
+                <label>Daniel Campagna</label>
+            </value>
+            <value>
+                <fullName>Heidi Nelson</fullName>
+                <default>false</default>
+                <label>Heidi Nelson</label>
+            </value>
+            <value>
+                <fullName>Jenine Renanud</fullName>
+                <default>false</default>
+                <label>Jenine Renanud</label>
+            </value>
+            <value>
+                <fullName>Mary Lou Boscardin</fullName>
+                <default>false</default>
+                <label>Mary Lou Boscardin</label>
+            </value>
+            <value>
+                <fullName>Matthew Carroz</fullName>
+                <default>false</default>
+                <label>Matthew Carroz</label>
+            </value>
+            <value>
+                <fullName>Nathan Olson</fullName>
+                <default>false</default>
+                <label>Nathan Olson</label>
+            </value>
+            <value>
+                <fullName>Ron Bittner</fullName>
+                <default>false</default>
+                <label>Ron Bittner</label>
+            </value>
+            <value>
+                <fullName>Sara Bummer</fullName>
+                <default>false</default>
+                <label>Sara Bummer</label>
+            </value>
+            <value>
+                <fullName>Sonny Peterman</fullName>
+                <default>false</default>
+                <label>Sonny Peterman</label>
+            </value>
+            <value>
+                <fullName>Yanni Macheras</fullName>
+                <default>false</default>
+                <label>Yanni Macheras</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

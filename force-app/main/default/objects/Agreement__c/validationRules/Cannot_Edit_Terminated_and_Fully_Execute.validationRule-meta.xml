@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_Edit_Terminated_and_Fully_Execute</fullName>
+    <active>false</active>
+    <description>Cannot edit fully executed and terminated lease</description>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()),  
+    OR(
+        ISPICKVAL(PRIORVALUE(Status__c), &quot;Fully Executed&quot;),
+        ISPICKVAL(PRIORVALUE(Status__c), &quot;Terminated&quot;)
+    ),
+    NOT($Permission.Netgain_Permisison_Set),
+    NOT($Permission.PC_Team)
+)</errorConditionFormula>
+    <errorMessage>Please contact RE Admin team to make changes to fully executed or Terminated Leases.</errorMessage>
+</ValidationRule>

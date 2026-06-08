@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer__c</fullName>
+    <label>Customer</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AMA Communications, LLC</fullName>
+                <default>false</default>
+                <label>AMA Communications, LLC</label>
+            </value>
+            <value>
+                <fullName>Appalachian Wireless</fullName>
+                <default>false</default>
+                <label>Appalachian Wireless</label>
+            </value>
+            <value>
+                <fullName>Aristotle</fullName>
+                <default>false</default>
+                <label>Aristotle</label>
+            </value>
+            <value>
+                <fullName>Arvig Enterprises, Inc.</fullName>
+                <default>false</default>
+                <label>Arvig Enterprises, Inc.</label>
+            </value>
+            <value>
+                <fullName>AT&amp;T</fullName>
+                <default>false</default>
+                <label>AT&amp;T</label>
+            </value>
+            <value>
+                <fullName>Beyond Reach</fullName>
+                <default>false</default>
+                <label>Beyond Reach</label>
+            </value>
+            <value>
+                <fullName>Bluebird Networks</fullName>
+                <default>false</default>
+                <label>Bluebird Networks</label>
+            </value>
+            <value>
+                <fullName>BNSF Railroad</fullName>
+                <default>false</default>
+                <label>BNSF Railroad</label>
+            </value>
+            <value>
+                <fullName>BroadbandOne</fullName>
+                <default>false</default>
+                <label>BroadbandOne</label>
+            </value>
+            <value>
+                <fullName>BSC Broadcasting</fullName>
+                <default>false</default>
+                <label>BSC Broadcasting</label>
+            </value>
+            <value>
+                <fullName>CampTek</fullName>
+                <default>false</default>
+                <label>CampTek</label>
+            </value>
+            <value>
+                <fullName>Capitan USA</fullName>
+                <default>false</default>
+                <label>Capitan USA</label>
+            </value>
+            <value>
+                <fullName>CenturyLink</fullName>
+                <default>false</default>
+                <label>CenturyLink</label>
+            </value>
+            <value>
+                <fullName>Chippewa Tribe</fullName>
+                <default>false</default>
+                <label>Chippewa Tribe</label>
+            </value>
+            <value>
+                <fullName>City of Fresno</fullName>
+                <default>false</default>
+                <label>City of Fresno</label>
+            </value>
+            <value>
+                <fullName>Claiborne Parish School</fullName>
+                <default>false</default>
+                <label>Claiborne Parish School</label>
+            </value>
+            <value>
+                <fullName>Conexon</fullName>
+                <default>false</default>
+                <label>Conexon</label>
+            </value>
+            <value>
+                <fullName>Cross Wireless</fullName>
+                <default>false</default>
+                <label>Cross Wireless</label>
+            </value>
+            <value>
+                <fullName>CSpire</fullName>
+                <default>false</default>
+                <label>CSpire</label>
+            </value>
+            <value>
+                <fullName>Cyber Mesa</fullName>
+                <default>false</default>
+                <label>Cyber Mesa</label>
+            </value>
+            <value>
+                <fullName>Dawson Enterprises</fullName>
+                <default>false</default>
+                <label>Dawson Enterprises</label>
+            </value>
+            <value>
+                <fullName>DEA</fullName>
+                <default>false</default>
+                <label>DEA</label>
+            </value>
+            <value>
+                <fullName>Dell Tel</fullName>
+                <default>false</default>
+                <label>Dell Tel</label>
+            </value>
+            <value>
+                <fullName>Delta High Speed</fullName>
+                <default>false</default>
+                <label>Delta High Speed</label>
+            </value>
+            <value>
+                <fullName>Digital Access OH</fullName>
+                <default>false</default>
+                <label>Digital Access OH</label>
+            </value>
+            <value>
+                <fullName>Dish Networks</fullName>
+                <default>false</default>
+                <label>Dish Networks</label>
+            </value>
+            <value>
+                <fullName>Edge X</fullName>
+                <default>false</default>
+                <label>Edge X</label>
+            </value>
+            <value>
+                <fullName>Ed Profaint</fullName>
+                <default>false</default>
+                <label>Ed Profaint</label>
+            </value>
+            <value>
+                <fullName>Elektrafi LLC</fullName>
+                <default>false</default>
+                <label>Elektrafi LLC</label>
+            </value>
+            <value>
+                <fullName>FBI</fullName>
+                <default>false</default>
+                <label>FBI</label>
+            </value>
+            <value>
+                <fullName>Fire Department</fullName>
+                <default>false</default>
+                <label>Fire Department</label>
+            </value>
+            <value>
+                <fullName>Flat Wireless</fullName>
+                <default>false</default>
+                <label>Flat Wireless</label>
+            </value>
+            <value>
+                <fullName>Georgia Department of Natural Resources</fullName>
+                <default>false</default>
+                <label>Georgia Department of Natural Resources</label>
+            </value>
+            <value>
+                <fullName>Giffen Solar Park</fullName>
+                <default>false</default>
+                <label>Giffen Solar Park</label>
+            </value>
+            <value>
+                <fullName>Gobert Enterprises</fullName>
+                <default>false</default>
+                <label>Gobert Enterprises</label>
+            </value>
+            <value>
+                <fullName>Goldman Green</fullName>
+                <default>false</default>
+                <label>Goldman Green</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers</fullName>
+                <default>false</default>
+                <label>Harmoni Towers</label>
+            </value>
+            <value>
+                <fullName>Hillary Communications</fullName>
+                <default>false</default>
+                <label>Hillary Communications</label>
+            </value>
+            <value>
+                <fullName>Illinois Electric Coop</fullName>
+                <default>false</default>
+                <label>Illinois Electric Coop</label>
+            </value>
+            <value>
+                <fullName>KentuckyFI</fullName>
+                <default>false</default>
+                <label>KentuckyFI</label>
+            </value>
+            <value>
+                <fullName>Key Bridge Wireless</fullName>
+                <default>false</default>
+                <label>Key Bridge Wireless</label>
+            </value>
+            <value>
+                <fullName>KNLY</fullName>
+                <default>false</default>
+                <label>KNLY</label>
+            </value>
+            <value>
+                <fullName>KTM Farm</fullName>
+                <default>false</default>
+                <label>KTM Farm</label>
+            </value>
+            <value>
+                <fullName>Levelland PD</fullName>
+                <default>false</default>
+                <label>Levelland PD</label>
+            </value>
+            <value>
+                <fullName>Marathon Oil</fullName>
+                <default>false</default>
+                <label>Marathon Oil</label>
+            </value>
+            <value>
+                <fullName>MetaLINK</fullName>
+                <default>false</default>
+                <label>MetaLINK</label>
+            </value>
+            <value>
+                <fullName>NE Co-op</fullName>
+                <default>false</default>
+                <label>NE Co-op</label>
+            </value>
+            <value>
+                <fullName>NexGen Direct</fullName>
+                <default>false</default>
+                <label>NexGen Direct</label>
+            </value>
+            <value>
+                <fullName>Nextlink</fullName>
+                <default>false</default>
+                <label>Nextlink</label>
+            </value>
+            <value>
+                <fullName>Nomad Wireless</fullName>
+                <default>false</default>
+                <label>Nomad Wireless</label>
+            </value>
+            <value>
+                <fullName>Nova Electronics</fullName>
+                <default>false</default>
+                <label>Nova Electronics</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>true</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Peebles Broadcasting</fullName>
+                <default>false</default>
+                <label>Peebles Broadcasting</label>
+            </value>
+            <value>
+                <fullName>Pensacola Energy</fullName>
+                <default>false</default>
+                <label>Pensacola Energy</label>
+            </value>
+            <value>
+                <fullName>Point Broadband</fullName>
+                <default>false</default>
+                <label>Point Broadband</label>
+            </value>
+            <value>
+                <fullName>Relevant Radio</fullName>
+                <default>false</default>
+                <label>Relevant Radio</label>
+            </value>
+            <value>
+                <fullName>Resound Networks</fullName>
+                <default>false</default>
+                <label>Resound Networks</label>
+            </value>
+            <value>
+                <fullName>RF Design</fullName>
+                <default>false</default>
+                <label>RF Design</label>
+            </value>
+            <value>
+                <fullName>RigNet</fullName>
+                <default>false</default>
+                <label>RigNet</label>
+            </value>
+            <value>
+                <fullName>Rigstar</fullName>
+                <default>false</default>
+                <label>Rigstar</label>
+            </value>
+            <value>
+                <fullName>Rise Broadband</fullName>
+                <default>false</default>
+                <label>Rise Broadband</label>
+            </value>
+            <value>
+                <fullName>RL Signor</fullName>
+                <default>false</default>
+                <label>RL Signor</label>
+            </value>
+            <value>
+                <fullName>RocketNet</fullName>
+                <default>false</default>
+                <label>RocketNet</label>
+            </value>
+            <value>
+                <fullName>Round Top</fullName>
+                <default>false</default>
+                <label>Round Top</label>
+            </value>
+            <value>
+                <fullName>SmartSky</fullName>
+                <default>false</default>
+                <label>SmartSky</label>
+            </value>
+            <value>
+                <fullName>Southern Linc</fullName>
+                <default>false</default>
+                <label>Southern Linc</label>
+            </value>
+            <value>
+                <fullName>Southwestern Energy</fullName>
+                <default>false</default>
+                <label>Southwestern Energy</label>
+            </value>
+            <value>
+                <fullName>Sprint</fullName>
+                <default>false</default>
+                <label>Sprint</label>
+            </value>
+            <value>
+                <fullName>State of North Dakota</fullName>
+                <default>false</default>
+                <label>State of North Dakota</label>
+            </value>
+            <value>
+                <fullName>State of South Carolina</fullName>
+                <default>false</default>
+                <label>State of South Carolina</label>
+            </value>
+            <value>
+                <fullName>ST Pier Group</fullName>
+                <default>false</default>
+                <label>ST Pier Group</label>
+            </value>
+            <value>
+                <fullName>Sun Radio</fullName>
+                <default>false</default>
+                <label>Sun Radio</label>
+            </value>
+            <value>
+                <fullName>Superior Broadband</fullName>
+                <default>false</default>
+                <label>Superior Broadband</label>
+            </value>
+            <value>
+                <fullName>Tailings Digital LLC</fullName>
+                <default>false</default>
+                <label>Tailings Digital LLC</label>
+            </value>
+            <value>
+                <fullName>TEK Wireless</fullName>
+                <default>false</default>
+                <label>TEK Wireless</label>
+            </value>
+            <value>
+                <fullName>The Love Station Inc.</fullName>
+                <default>false</default>
+                <label>The Love Station Inc.</label>
+            </value>
+            <value>
+                <fullName>Thibodaux</fullName>
+                <default>false</default>
+                <label>Thibodaux</label>
+            </value>
+            <value>
+                <fullName>T-Mobile</fullName>
+                <default>false</default>
+                <label>T-Mobile</label>
+            </value>
+            <value>
+                <fullName>Townes Communications</fullName>
+                <default>false</default>
+                <label>Townes Communications</label>
+            </value>
+            <value>
+                <fullName>United Health</fullName>
+                <default>false</default>
+                <label>United Health</label>
+            </value>
+            <value>
+                <fullName>Uniti Fiber</fullName>
+                <default>false</default>
+                <label>Uniti Fiber</label>
+            </value>
+            <value>
+                <fullName>Upward Broadband</fullName>
+                <default>false</default>
+                <label>Upward Broadband</label>
+            </value>
+            <value>
+                <fullName>US Cellular</fullName>
+                <default>false</default>
+                <label>US Cellular</label>
+            </value>
+            <value>
+                <fullName>US WiFi</fullName>
+                <default>false</default>
+                <label>US WiFi</label>
+            </value>
+            <value>
+                <fullName>Vanguard</fullName>
+                <default>false</default>
+                <label>Vanguard</label>
+            </value>
+            <value>
+                <fullName>Ventress Electronics</fullName>
+                <default>false</default>
+                <label>Ventress Electronics</label>
+            </value>
+            <value>
+                <fullName>Verizon Wireless</fullName>
+                <default>false</default>
+                <label>Verizon Wireless</label>
+            </value>
+            <value>
+                <fullName>Versado Gas</fullName>
+                <default>false</default>
+                <label>Versado Gas</label>
+            </value>
+            <value>
+                <fullName>VTX Communications</fullName>
+                <default>false</default>
+                <label>VTX Communications</label>
+            </value>
+            <value>
+                <fullName>Washington County VA</fullName>
+                <default>false</default>
+                <label>Washington County VA</label>
+            </value>
+            <value>
+                <fullName>Watch Communications</fullName>
+                <default>false</default>
+                <label>Watch Communications</label>
+            </value>
+            <value>
+                <fullName>Wildstar</fullName>
+                <default>false</default>
+                <label>Wildstar</label>
+            </value>
+            <value>
+                <fullName>Windstream</fullName>
+                <default>false</default>
+                <label>Windstream</label>
+            </value>
+            <value>
+                <fullName>Wispr</fullName>
+                <default>false</default>
+                <label>Wispr</label>
+            </value>
+            <value>
+                <fullName>WPX Energy Inc.</fullName>
+                <default>false</default>
+                <label>WPX Energy Inc.</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

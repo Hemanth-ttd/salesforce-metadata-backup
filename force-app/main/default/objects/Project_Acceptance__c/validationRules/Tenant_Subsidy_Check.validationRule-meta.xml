@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tenant_Subsidy_Check</fullName>
+    <active>true</active>
+    <description>check amount is entered</description>
+    <errorConditionFormula>AND( ISPICKVAL(Tenant_Subsidy__c ,&apos;Yes&apos;),
+    Tenant_Subsidy_Amount__c  &lt;= 0)</errorConditionFormula>
+    <errorMessage>Please enter Tenant Subsidy Amount greater than 0 when Tenant Subsidy is Yes.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,18 @@
+<template>
+    <!-- Editable Unit Economics Form -->
+    <lightning-record-edit-form object-api-name="strk__Approval_Process__c" record-id={approvalRecordId}
+        onsuccess={handleSuccess} onerror={handleError}>
+        <lightning-layout multiple-rows>
+            <template for:each={fieldsList} for:item="fieldItem">
+                <lightning-layout-item key={fieldItem.fieldName} flexibility="auto" size="12" large-device-size="6"
+                    padding="around-small">
+                    <lightning-input-field data-name={fieldItem.fieldName} data-id={fieldItem.fieldName}
+                        field-name={fieldItem.fieldName} disabled>
+                    </lightning-input-field>
+                </lightning-layout-item>
+
+            </template>
+        </lightning-layout>
+
+    </lightning-record-edit-form>
+</template>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Index_Rate__c</fullName>
+    <description>Latest UE Index rate user in SDP</description>
+    <formula>Project__r.Project_Extension__r.Unit_Economics_Id__r.Index_Rate__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Latest Approved UE Index Rate</inlineHelpText>
+    <label>Index Rate</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_On_UE_Version</fullName>
+    <active>false</active>
+    <errorConditionFormula>if( Not(IsBlank( Uploaded_UEVersion__c))&amp;&amp;  Uploaded_UEVersion__c != UEVersion__c ,true,false)</errorConditionFormula>
+    <errorMessage>UE Version uploaded doesn&apos;t match the latest version of UE. Please download latest version and then upload UE.</errorMessage>
+</ValidationRule>

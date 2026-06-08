@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Require_Project_Object_if_not_using_site</fullName>
+    <active>true</active>
+    <description>Require a project object value and project status field if not using Site</description>
+    <errorConditionFormula>AND( NOT(  Use_Site_Status_Field__c  )
+
+   , OR( 
+           ISBLANK( Project_Object__c )
+         , ISBLANK( Project_Status_Field__c )
+       )
+)</errorConditionFormula>
+    <errorMessage>You must supply  project object and project status field when not using the site status field</errorMessage>
+</ValidationRule>

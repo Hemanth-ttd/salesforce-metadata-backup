@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amendment_Entity__c</fullName>
+    <label>Amendment Entity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PI Tower Development LLC</fullName>
+                <default>false</default>
+                <label>PI Tower Development LLC</label>
+            </value>
+            <value>
+                <fullName>Harmoni Towers AssetCo, LLC</fullName>
+                <default>false</default>
+                <label>Harmoni Towers AssetCo, LLC</label>
+            </value>
+            <value>
+                <fullName>Parallel Towers III, LLC</fullName>
+                <default>false</default>
+                <label>Parallel Towers III, LLC</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,117 @@
+<template>
+    <lightning-card title="All Approvals">
+        <template if:false={recordId}>
+         <div slot="actions">
+            <lightning-select
+            name="approvals"
+            label="Approvals"
+            variant="label-hidden"
+            value={value}
+            options={options}
+            onchange={handleChange}
+            required ></lightning-select>
+        </div>
+        </template>
+        <div class="slds-p-around_small">
+              <!-- Spinner shown during loading -->
+            <template if:true={isLoading}>
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </template>
+            
+            <template if:true={filteredApprovals}>
+                <template for:each={filteredApprovals} for:item="item">
+                    <div key={item.Id} class="slds-box slds-m-around_x-small slds-theme_default">
+
+                        <lightning-record-view-form object-api-name="strk__Approver__c" record-id={item.Id}>
+
+                            <lightning-layout multiple-rows>
+                                <lightning-layout-item flexibility="auto" size="6" large-device-size="3"
+                                    padding="around-small">
+                                    <lightning-output-field field-name="Record__c"></lightning-output-field>
+                                </lightning-layout-item>
+                                <template if:true={item.isUE}>
+                                    <lightning-layout-item flexibility="auto" size="6" large-device-size="6"
+                                        padding="around-small">
+                                        <lightning-record-view-form object-api-name="Unit_Economics__c"
+                                            record-id={item.strk__Record_Id_Formula__c}>
+                                            <lightning-layout multiple-rows>
+                                                <lightning-layout-item flexibility="auto" size="12"
+                                                    large-device-size="6" padding="around-small">
+                                                    <lightning-output-field field-name="X8_Year_IRR__c">
+                                                    </lightning-output-field>
+                                                </lightning-layout-item>
+                                                <lightning-layout-item flexibility="auto" size="12"
+                                                    large-device-size="6" padding="around-small">
+                                                    <lightning-output-field field-name="Total_Capex__c">
+                                                    </lightning-output-field>
+                                                </lightning-layout-item>
+                                            </lightning-layout>
+                                        </lightning-record-view-form>
+                                    </lightning-layout-item>
+                                </template>
+
+                                
+                                <template if:true={item.isPA}>
+                                    <lightning-layout-item flexibility="auto" size="6" large-device-size="6"
+                                        padding="around-small">
+                                        <lightning-record-view-form object-api-name="Project_Acceptance__c"
+                                            record-id={item.strk__Record_Id_Formula__c}>
+                                            <lightning-layout multiple-rows>
+                                                <lightning-layout-item flexibility="auto" size="12"
+                                                    large-device-size="6" padding="around-small">
+                                                    <lightning-output-field field-name="X8_Year_IRR__c">
+                                                    </lightning-output-field>
+                                                </lightning-layout-item>
+                                                <lightning-layout-item flexibility="auto" size="12"
+                                                    large-device-size="6" padding="around-small">
+                                                    <lightning-output-field field-name="Total_Capex__c">
+                                                    </lightning-output-field>
+                                                </lightning-layout-item>
+                                            </lightning-layout>
+                                        </lightning-record-view-form>
+                                    </lightning-layout-item>
+                                </template>
+
+                                <lightning-layout-item flexibility="auto" size="6" small-device-size="3"
+                                    padding="around-small">
+                                    <lightning-output-field field-name="strk__Due_Date__c"></lightning-output-field>
+                                </lightning-layout-item>
+                                <lightning-layout-item flexibility="auto" size="6" small-device-size="3"
+                                    padding="around-small">
+                                    <lightning-output-field field-name="strk__Days_in_Approval__c">
+                                    </lightning-output-field>
+                                </lightning-layout-item>
+                                <lightning-layout-item flexibility="auto" size="6" small-device-size="3"
+                                    padding="around-small">
+                                    <lightning-output-field field-name="strk__Days_with_Approver__c">
+                                    </lightning-output-field>
+                                </lightning-layout-item>
+                                <lightning-layout-item flexibility="auto" size="6" large-device-size="3"
+                                    padding="around-small">
+                                    <lightning-output-field field-name="strk__Status__c"></lightning-output-field>
+                                </lightning-layout-item>
+                                <lightning-layout-item flexibility="auto" size="6" small-device-size="3"
+                                    padding="around-small">
+                                    <lightning-output-field field-name="strk__User__c"></lightning-output-field>
+                                </lightning-layout-item>
+                            </lightning-layout>
+                        </lightning-record-view-form>
+                        <lightning-textarea label="Comments" value={item.comments} data-id={item.Id} onchange={handleCommentChange}
+                            class="slds-m-top_small">
+                        </lightning-textarea>
+                        <div class="slds-grid slds-grid_align-center slds-m-top_medium">
+                        
+                            <lightning-button label="Approve" variant="brand" data-id={item.Id} data-action="Approved"
+                                onclick={handleAction}></lightning-button>
+                            <lightning-button label="Reject" variant="destructive" class="slds-m-left_small"
+                                data-id={item.Id} data-action="Rejected" onclick={handleAction}></lightning-button>
+                        </div>
+                    </div>
+                </template>
+            </template>
+            <template if:false={filteredApprovals}>
+                <p>No pending approvals.</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UE_Milestone__c</fullName>
+    <label>UE Milestone</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Project Acceptance UE</fullName>
+                <default>false</default>
+                <label>Project Acceptance UE</label>
+            </value>
+            <value>
+                <fullName>Ground Lease UE</fullName>
+                <default>false</default>
+                <label>Ground Lease UE</label>
+            </value>
+            <value>
+                <fullName>SCIP UE</fullName>
+                <default>false</default>
+                <label>SCIP UE</label>
+            </value>
+            <value>
+                <fullName>Revised UE</fullName>
+                <default>false</default>
+                <label>Revised UE</label>
+            </value>
+            <value>
+                <fullName>Pre-Cx UE</fullName>
+                <default>false</default>
+                <label>Pre-Cx UE</label>
+            </value>
+            <value>
+                <fullName>In-Cx UE</fullName>
+                <default>false</default>
+                <label>In-Cx UE</label>
+            </value>
+            <value>
+                <fullName>Final UE</fullName>
+                <default>false</default>
+                <label>Final UE</label>
+            </value>
+            <value>
+                <fullName>Construction UE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Construction UE</label>
+            </value>
+            <value>
+                <fullName>Development UE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Development UE</label>
+            </value>
+            <value>
+                <fullName>Finance Update</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finance Update</label>
+            </value>
+            <value>
+                <fullName>SLA UE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SLA UE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Responses__c</fullName>
+    <description>Count of responses on this thread</description>
+    <label>Responses</label>
+    <summaryForeignKey>Project_Email__c.Project_Email_Thread__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

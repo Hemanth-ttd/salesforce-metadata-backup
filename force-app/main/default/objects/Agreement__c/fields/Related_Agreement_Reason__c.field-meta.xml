@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_Agreement_Reason__c</fullName>
+    <label>Related Agreement Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Related_Agreement_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equipment Change</fullName>
+                <default>false</default>
+                <label>Equipment Change</label>
+            </value>
+            <value>
+                <fullName>Microwave</fullName>
+                <default>false</default>
+                <label>Microwave</label>
+            </value>
+            <value>
+                <fullName>SDP Recon Amendment</fullName>
+                <default>false</default>
+                <label>SDP Recon Amendment</label>
+            </value>
+            <value>
+                <fullName>SDP Revision Amendment</fullName>
+                <default>false</default>
+                <label>SDP Revision Amendment</label>
+            </value>
+            <value>
+                <fullName>Zero Dollar</fullName>
+                <default>false</default>
+                <label>Zero Dollar</label>
+            </value>
+            <value>
+                <fullName>Collocation Pass-Through</fullName>
+                <default>false</default>
+                <label>Collocation Pass-Through</label>
+            </value>
+            <value>
+                <fullName>Ground Rent Pass-Through</fullName>
+                <default>false</default>
+                <label>Ground Rent Pass-Through</label>
+            </value>
+            <value>
+                <fullName>Initial Facility User Fee</fullName>
+                <default>false</default>
+                <label>Initial Facility User Fee</label>
+            </value>
+            <value>
+                <fullName>Installment Payment</fullName>
+                <default>false</default>
+                <label>Installment Payment</label>
+            </value>
+            <value>
+                <fullName>Marketing Fee</fullName>
+                <default>false</default>
+                <label>Marketing Fee</label>
+            </value>
+            <value>
+                <fullName>Non-Amendment Microwave Rent</fullName>
+                <default>false</default>
+                <label>Non-Amendment Microwave Rent</label>
+            </value>
+            <value>
+                <fullName>Office Rent</fullName>
+                <default>false</default>
+                <label>Office Rent</label>
+            </value>
+            <value>
+                <fullName>Sales Tax</fullName>
+                <default>false</default>
+                <label>Sales Tax</label>
+            </value>
+            <value>
+                <fullName>Sublease Rev Share</fullName>
+                <default>false</default>
+                <label>Sublease Rev Share</label>
+            </value>
+            <value>
+                <fullName>Utilities/Maintenance Fee</fullName>
+                <default>false</default>
+                <label>Utilities/Maintenance Fee</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Rent Reduction</fullName>
+                <default>false</default>
+                <label>Rent Reduction</label>
+            </value>
+            <value>
+                <fullName>Signing Bonus</fullName>
+                <default>false</default>
+                <label>Signing Bonus</label>
+            </value>
+            <value>
+                <fullName>Soft Costs</fullName>
+                <default>false</default>
+                <label>Soft Costs</label>
+            </value>
+            <value>
+                <fullName>Capital Contributions</fullName>
+                <default>false</default>
+                <label>Capital Contributions</label>
+            </value>
+            <value>
+                <fullName>One Time Fee</fullName>
+                <default>false</default>
+                <label>One Time Fee</label>
+            </value>
+            <value>
+                <fullName>Easement</fullName>
+                <default>false</default>
+                <label>Easement</label>
+            </value>
+            <value>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+                <label>Amendment</label>
+            </value>
+            <value>
+                <fullName>Purchase</fullName>
+                <default>false</default>
+                <label>Purchase</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>ABM Bill of Sale</fullName>
+                <default>false</default>
+                <label>ABM Bill of Sale</label>
+            </value>
+            <value>
+                <fullName>Consent Letter</fullName>
+                <default>false</default>
+                <label>Consent Letter</label>
+            </value>
+            <value>
+                <fullName>Lease Premises</fullName>
+                <default>false</default>
+                <label>Lease Premises</label>
+            </value>
+            <value>
+                <fullName>Reinstatement</fullName>
+                <default>false</default>
+                <label>Reinstatement</label>
+            </value>
+            <value>
+                <fullName>Option/ Due Diligence</fullName>
+                <default>false</default>
+                <label>Option/ Due Diligence</label>
+            </value>
+            <value>
+                <fullName>Revised SDP Amendment</fullName>
+                <default>false</default>
+                <label>Revised SDP Amendment</label>
+            </value>
+            <value>
+                <fullName>Reconciliation Amendment</fullName>
+                <default>false</default>
+                <label>Reconciliation Amendment</label>
+            </value>
+            <value>
+                <fullName>Fee Simple Purchase</fullName>
+                <default>false</default>
+                <label>Fee Simple Purchase</label>
+            </value>
+            <value>
+                <fullName>Term Easement</fullName>
+                <default>false</default>
+                <label>Term Easement</label>
+            </value>
+            <value>
+                <fullName>Perpetual Easement</fullName>
+                <default>false</default>
+                <label>Perpetual Easement</label>
+            </value>
+            <value>
+                <fullName>Prepaid Amendment</fullName>
+                <default>false</default>
+                <label>Prepaid Amendment</label>
+            </value>
+            <value>
+                <fullName>Lien Of Release</fullName>
+                <default>false</default>
+                <label>Lien Of Release</label>
+            </value>
+            <value>
+                <fullName>PAL Letter</fullName>
+                <default>false</default>
+                <label>PAL Letter</label>
+            </value>
+            <value>
+                <fullName>Combined Action</fullName>
+                <default>false</default>
+                <label>Combined Action</label>
+            </value>
+            <value>
+                <fullName>Ground Amendment Other</fullName>
+                <default>false</default>
+                <label>Ground Amendment Other</label>
+            </value>
+            <value>
+                <fullName>Anchor Amendment Other</fullName>
+                <default>false</default>
+                <label>Anchor Amendment Other</label>
+            </value>
+            <value>
+                <fullName>Colocation Amendment Other</fullName>
+                <default>false</default>
+                <label>Colocation Amendment Other</label>
+            </value>
+            <value>
+                <fullName>Option/ Due Diligence Extension</fullName>
+                <default>false</default>
+                <label>Option/Due Diligence Extension</label>
+            </value>
+            <value>
+                <fullName>SDP Initial</fullName>
+                <default>false</default>
+                <label>SDP Initial</label>
+            </value>
+            <value>
+                <fullName>SDP Revision</fullName>
+                <default>false</default>
+                <label>SDP Revision</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>ABM</controllingFieldValue>
+            <valueName>ABM Bill of Sale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ABM</controllingFieldValue>
+            <valueName>Lien Of Release</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access/Utility Easement</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Lease Buyout</controllingFieldValue>
+            <valueName>Fee Simple Purchase</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Lease Buyout</controllingFieldValue>
+            <valueName>Term Easement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Lease Buyout</controllingFieldValue>
+            <valueName>Perpetual Easement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Lease Buyout</controllingFieldValue>
+            <valueName>Prepaid Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <controllingFieldValue>Colocation Amendment</controllingFieldValue>
+            <valueName>Equipment Change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <controllingFieldValue>Colocation Amendment</controllingFieldValue>
+            <valueName>Microwave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <controllingFieldValue>Colocation Amendment</controllingFieldValue>
+            <valueName>Zero Dollar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <valueName>Revised SDP Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <valueName>Reconciliation Amendment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <controllingFieldValue>Colocation Amendment</controllingFieldValue>
+            <controllingFieldValue>Ground Amendment</controllingFieldValue>
+            <valueName>Combined Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Amendment</controllingFieldValue>
+            <valueName>Anchor Amendment Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation Amendment</controllingFieldValue>
+            <valueName>Colocation Amendment Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Amendment</controllingFieldValue>
+            <valueName>Ground Amendment Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Amendment</controllingFieldValue>
+            <valueName>Option/ Due Diligence Extension</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Ground Rent Pass-Through</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <valueName>Non-Amendment Microwave Rent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Office Rent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Utilities/Maintenance Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Rent Reduction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <valueName>Signing Bonus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Soft Costs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <valueName>Capital Contributions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Anchor Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>One Time Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <valueName>Collocation Pass-Through</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Colocation Payment Reason</controllingFieldValue>
+            <valueName>Marketing Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Initial Facility User Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Installment Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Sales Tax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Sublease Rev Share</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ground Payment Reason</controllingFieldValue>
+            <valueName>Option/ Due Diligence</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SDP Revision/Version</controllingFieldValue>
+            <valueName>SDP Initial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SDP Revision/Version</controllingFieldValue>
+            <valueName>SDP Revision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letter</controllingFieldValue>
+            <valueName>Consent Letter</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Letter</controllingFieldValue>
+            <valueName>PAL Letter</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

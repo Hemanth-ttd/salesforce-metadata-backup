@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Agreement_Assoication</fullName>
+    <active>false</active>
+    <description>check agreement is there</description>
+    <errorConditionFormula>ISChanged(Agreement__c)  &amp;&amp;
+(ISNULL(Agreement__c)  || NOT(ISNULL(Agreement__c)))</errorConditionFormula>
+    <errorMessage>Draft needs to be link either an agreement or related agreement.</errorMessage>
+</ValidationRule>
